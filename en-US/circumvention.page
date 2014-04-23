@@ -1,0 +1,46 @@
+
+<page xmlns="http://projectmallard.org/1.0/"
+  type="topic"
+  id="circumvention">
+
+<info>
+  <title type='sort'>03 Circumvention</title>
+  <desc>What to do if the Tor network is blocked.</desc>
+  <link type="guide" xref="index" />
+</info>
+
+<title>Circumvention</title>
+
+<p>
+Some firewalls can detect and block connections to Tor. The Tor Browser 
+includes some circumvention tools for getting around blocking firewalls. 
+These circumvention tools are called Pluggable Transports. To turn them on, 
+click "Configure" in the Tor launcher window. 
+</p>
+
+<media type="image" src="imgs/tor-launcher-configure_en-US.png" />
+
+<p>
+Select yes when asked if your internet service provider blocks connections 
+to Tor." 
+</p>
+
+<media type="image" src="imgs/tor-launcher-wizard_en-US.png" />
+
+<p>
+Select "Connect with provided bridges". Tor Browser has three Pluggable 
+Transports to choose from. If one fails to get you online, try selecting a 
+different transport. 
+</p>
+
+<media type="image" src="imgs/tor-launcher-provided-bridges_en-US.png" />
+
+<p>
+If you try all three transports, and none of them get you online, select 
+"Enter custom bridges", and enter bridges manually. Read the <link 
+xref='bridges'>Getting Bridges</link> section for instructions on getting 
+custom bridges. 
+</p>
+
+</page>
+

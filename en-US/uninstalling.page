@@ -1,0 +1,41 @@
+
+<page xmlns="http://projectmallard.org/1.0/"
+  type="topic"
+  id="uninstalling">
+
+<info>
+  <desc>How to remove Tor Browser from your system.</desc>
+  <title type='sort'>05 Uninstalling</title>
+  <link type="guide" xref="index"/>
+</info>
+
+<title>Uninstalling</title>
+
+<p>
+The Tor Browser does not affect any of the existing software 
+or settings on your computer. Uninstalling Tor Browser will not affect your 
+system's software or settings either.  
+</p>
+
+<p>
+Removing the Tor Browser from your system is simple:
+</p>
+
+<steps>
+  <item>
+    <p>Locate your Tor Browser folder. The default location is your Desktop.</p>
+ </item>
+  <item>
+    <p>Delete the Tor Browser folder.</p>
+  </item>
+  <item>
+    <p>Empty your Trash</p>
+  </item>
+</steps>
+
+<p>
+Note that your operating system's standard "Uninstall" utility is not used.
+</p>
+
+</page>
+

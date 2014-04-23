@@ -1,0 +1,55 @@
+
+<page xmlns="http://projectmallard.org/1.0/"
+  type="topic"
+  id="troubleshooting">
+
+<info>
+  <title type="sort">02 Troubleshooting</title>
+  <desc>What to do if Tor Browser doesn't work.</desc>
+  <link type="guide" xref="index"/>
+</info>
+
+<title>Troubleshooting</title>
+
+<p>
+The Tor Browser should get you online automatically after clicking the 
+"Connect" button on the start up screen. 
+</p>
+
+<media type="image" src="imgs/tor-launcher-connect_en-US.png" />
+
+<p>
+If it doesn't connect, there may be a simple fix. Try each of the following: 
+</p>
+
+<list>
+  <item>
+    <p>Make sure another Tor Browser is not already running. If you're 
+       not sure if Tor Browser is running, restart your computer.</p>
+  </item>
+  <item>
+    <p>'Allow' Tor in your antivirus program.</p>
+  </item>
+  <item>
+    <p>Temporarily disable your firewall.</p>
+  </item>
+  <item>
+    <p>Delete Tor Browser and install it again. If updating, do not overwrite 
+       your previous Tor Browser files.</p>
+  </item>
+</list>
+
+<p>
+If you still can't connect, your internet service provider might be censoring 
+connections to Tor. Follow the instructions in the <link 
+xref='circumvention'>Circumvention</link> section.
+</p>
+
+<p>
+If the above steps do not address your problem, email help@rt.torproject.org 
+with your operating system, the details of your problem, and what you've 
+already tried.
+</p>
+
+</page>
+
