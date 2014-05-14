@@ -1,0 +1,71 @@
+
+<page xmlns="http://projectmallard.org/1.0/"
+  type="topic"
+  id="known-issues">
+
+<info>
+  <desc>A list of known issues.</desc>
+  <title type='sort'>03 Known Issues</title>
+  <link type="guide" xref="index"/>
+</info>
+
+<title>Known Issues</title>
+
+<list>
+  <item>
+    <p>The following firewall software have been known to interfere with Tor 
+    and may need to be temporarily disabled:</p>
+    <list>
+      <item>
+        <p>Webroot SecureAnywhere</p>
+      </item>
+      <item>
+        <p>Kaspersky Internet Security 2012</p>
+      </item>
+      <item>
+        <p>Sophos Antivirus for Mac</p>
+      </item>
+      <item>
+        <p>Microsoft Security Essentials</p>
+      </item>
+    </list>
+  </item>
+  <item>
+    <p>
+    Videos that require Adobe Flash are unavailable. Flash is disabled for 
+    security reasons. Most YouTube videos can be played with HTML5 by visiting 
+    the video's "Embed" &#8594; "Share" link. 
+    </p>
+  </item>
+  <item>
+    <p>
+    Tor can not use a bridge if a proxy is set. 
+    </p>
+  </item>
+  <item>
+    <p>
+    The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to 
+    ensure that each software build is exactly reproducible. 
+    </p>
+  </item>
+  <item>
+    <p>
+    To run Tor Browser on Ubuntu, users need to execute a shell script. Open 
+    "Files" (Unity's explorer), open Preferences &#8594; Behavior Tab &#8594; 
+    Set "Run executable text files when they are opened" to "Ask every time", 
+    then OK. Tor Browser can also be started from the command line by running
+    </p>
+    <code>
+    ./start-tor-browser
+    </code>
+    <p>
+    from inside the Tor Browser directory.
+    </p>
+  </item>
+</list>
+<p>
+If you have an issue with Tor Browser that isn't on this list, feel free to 
+email help@rt.torproject.org. 
+</p>
+</page>
+
