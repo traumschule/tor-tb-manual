@@ -1,0 +1,12 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="guide"
+      id="index">
+  <title>Tor Browser Help</title>
+  <p its:locNote="&lt;span/&gt; will be replaced by current Tor Browser version">
+    Version:
+    <span its:translate="no"><xi:include href="../tor-browser-version.txt" parse="text"/></span>
+  </p>
+</page>
+

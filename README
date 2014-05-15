@@ -1,0 +1,28 @@
+Tor Browser User Manual
+=======================
+
+Written using Mallard.
+
+Original (English) source lies in `C`.
+
+Building the HTML version
+-------------------------
+
+Required dependencies on Debian:
+
+    autoconf yelp-tools yelp-xsl intltool
+
+Bootstrap:
+
+    autoreconf -vif
+
+Build:
+
+    ./configure
+    make html
+
+Ressources
+----------
+
+Mallard cheat sheet:
+<http://blogs.gnome.org/shaunm/files/2012/01/mallardcheatsheet.png>

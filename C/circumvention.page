@@ -18,14 +18,14 @@ These circumvention tools are called Pluggable Transports. To turn them on,
 click "Configure" in the Tor launcher window. 
 </p>
 
-<media type="image" src="imgs/tor-launcher-configure_en-US.png" />
+<media type="image" src="media/tor-launcher-configure_en-US.png" />
 
 <p>
 Select yes when asked if your internet service provider blocks connections 
 to Tor." 
 </p>
 
-<media type="image" src="imgs/tor-launcher-wizard_en-US.png" />
+<media type="image" src="media/tor-launcher-wizard_en-US.png" />
 
 <p>
 Select "Connect with provided bridges". Tor Browser has three Pluggable 
@@ -33,7 +33,7 @@ Transports to choose from. If one fails to get you online, try selecting a
 different transport. 
 </p>
 
-<media type="image" src="imgs/tor-launcher-provided-bridges_en-US.png" />
+<media type="image" src="media/tor-launcher-provided-bridges_en-US.png" />
 
 <p>
 If you try all three transports, and none of them get you online, select 

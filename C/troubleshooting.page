@@ -16,7 +16,7 @@ The Tor Browser should get you online automatically after clicking the
 "Connect" button on the start up screen. 
 </p>
 
-<media type="image" src="imgs/tor-launcher-connect_en-US.png" />
+<media type="image" src="media/tor-launcher-connect_en-US.png" />
 
 <p>
 If it doesn't connect, there may be a simple fix. Try each of the following: 

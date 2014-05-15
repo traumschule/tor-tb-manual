@@ -141,7 +141,7 @@ the Tor network. Select 'Use custom bridges' and enter each bridge identifier
 on its own line.
 </p>
 
-<media type="image" src="imgs/tor-launcher-custom-bridges_en-US.png" />
+<media type="image" src="media/tor-launcher-custom-bridges_en-US.png" />
 
 <p>
 Click Connect. Using bridges slow down the connection. If the connection fails,

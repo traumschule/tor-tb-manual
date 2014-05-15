@@ -1,0 +1,380 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-05-15 11:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/bridges.page:144(media)
+msgctxt "_"
+msgid "external ref='media/tor-launcher-custom-bridges_en-US.png' md5='93365c2aa3fb4d627497e83f28a39b7e'"
+msgstr ""
+
+#: C/bridges.page:7(info/desc)
+msgid "What bridges are and how to use them."
+msgstr ""
+
+#: C/bridges.page:8(info/title)
+msgctxt "sort"
+msgid "05 Bridges"
+msgstr ""
+
+#: C/bridges.page:12(page/title)
+msgid "Bridges"
+msgstr ""
+
+#: C/bridges.page:14(page/p)
+msgid "Bridges are quiet gateways into the Tor Network. Like Tor relays, they are run by volunteers. Unlike relays, they are not listed publicly. Using bridges disguise the fact that one is using Tor."
+msgstr ""
+
+#: C/bridges.page:20(page/p)
+msgid "Currently there are five bridge types, or transports, available. More are being developed."
+msgstr ""
+
+#: C/bridges.page:27(td/p)
+msgid "ORPort"
+msgstr ""
+
+#: C/bridges.page:32(td/p)
+msgid "Requesting 'bridges' without specifying the bridge type, will return ORPort bridges, also called Vanilla bridges. ORPort bridges are NOT reliable for circumventing censorship or national firewalls. ORPort bridges can be useful as trusted entry points into the Tor network."
+msgstr ""
+
+#: C/bridges.page:42(td/p)
+msgid "obfs2"
+msgstr ""
+
+#: C/bridges.page:47(td/p)
+msgid "Censors have learned how to identify obfs2 bridges. This transport is being deprecated."
+msgstr ""
+
+#: C/bridges.page:55(td/p)
+msgid "obfs3"
+msgstr ""
+
+#: C/bridges.page:60(td/p)
+msgid "Obfsproxy disguises Tor traffic as random noise. obfs3 bridges work almost everywhere. A few obfs3 bridges have been blocked."
+msgstr ""
+
+#: C/bridges.page:68(td/p)
+msgid "Scramblesuit"
+msgstr ""
+
+#: C/bridges.page:73(td/p)
+msgid "Scramblesuit is an additional tool for the obfsproxy transport. Scramblesuit bridges are designed to be hard to identify and hard to block."
+msgstr ""
+
+#: C/bridges.page:82(td/p)
+msgid "FTE"
+msgstr ""
+
+#: C/bridges.page:87(td/p)
+msgid "Format-Transforming Encryption disguises Tor traffic as web (HTTP) traffic or other types of internet traffic. FTE bridges are effective, but in limited supply."
+msgstr ""
+
+#: C/bridges.page:96(page/p)
+msgid "(Note that flashproxy is a Pluggable Transport, but does not rely on bridges.)"
+msgstr ""
+
+#: C/bridges.page:100(page/p)
+msgid "There are four ways to get a bridge."
+msgstr ""
+
+#: C/bridges.page:106(item/p)
+msgid "Visit <link href=\"https://bridges.torproject.org/\">https://bridges.torproject.org/</link> and follow the instructions."
+msgstr ""
+
+#: C/bridges.page:111(item/p)
+msgid "Email bridges@bridges.torproject.org from a gmail or yahoo email address. Put <cmd>get bridges</cmd> in the body for ORPort bridges or <cmd>transport=obfs3</cmd> for obfs3 bridges."
+msgstr ""
+
+#: C/bridges.page:118(item/p)
+msgid "Politely ask a human at help@rt.torproject.org if you cannot access either of the first two methods."
+msgstr ""
+
+#: C/bridges.page:124(item/p)
+msgid "Install and configure a Tor instance to be bridge for yourself. The computer acting as a bridge must have uncensored internet access to the Tor network. A full installation guide can be found at <link href=\"https://www.torproject.org/projects/obfsproxy-debian-instructions.html.en\">https://www.torproject.org/projects/obfsproxy-debian-instructions.html.en</link>"
+msgstr ""
+
+#: C/bridges.page:133(page/p)
+msgid "Enter the bridge information you get from any of the above steps in Tor-launcher."
+msgstr ""
+
+#: C/bridges.page:138(page/p)
+msgid "Choose yes when asked if your Internet Service Provider blocks connections to the Tor network. Select 'Use custom bridges' and enter each bridge identifier on its own line."
+msgstr ""
+
+#: C/bridges.page:146(page/p)
+msgid "Click Connect. Using bridges slow down the connection. If the connection fails, the bridges you received may be down. Get more and try again."
+msgstr ""
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/circumvention.page:21(media)
+msgctxt "_"
+msgid "external ref='media/tor-launcher-configure_en-US.png' md5='966f4bafcb829e59b2b84d08144d885e'"
+msgstr ""
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/circumvention.page:28(media)
+msgctxt "_"
+msgid "external ref='media/tor-launcher-wizard_en-US.png' md5='21f80fc3f4e34359bfdc44684d7da09d'"
+msgstr ""
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/circumvention.page:36(media)
+msgctxt "_"
+msgid "external ref='media/tor-launcher-provided-bridges_en-US.png' md5='70524dccb698a21bb1d20223461e3272'"
+msgstr ""
+
+#: C/circumvention.page:7(info/title)
+msgctxt "sort"
+msgid "04 Circumvention"
+msgstr ""
+
+#: C/circumvention.page:8(info/desc)
+msgid "What to do if the Tor network is blocked."
+msgstr ""
+
+#: C/circumvention.page:12(page/title)
+msgid "Circumvention"
+msgstr ""
+
+#: C/circumvention.page:14(page/p)
+msgid "Some firewalls can detect and block connections to Tor. The Tor Browser includes some circumvention tools for getting around blocking firewalls. These circumvention tools are called Pluggable Transports. To turn them on, click \"Configure\" in the Tor launcher window."
+msgstr ""
+
+#: C/circumvention.page:23(page/p)
+msgid "Select yes when asked if your internet service provider blocks connections to Tor.\""
+msgstr ""
+
+#: C/circumvention.page:30(page/p)
+msgid "Select \"Connect with provided bridges\". Tor Browser has three Pluggable Transports to choose from. If one fails to get you online, try selecting a different transport."
+msgstr ""
+
+#: C/circumvention.page:38(page/p)
+msgid "If you try all three transports, and none of them get you online, select \"Enter custom bridges\", and enter bridges manually. Read the <link xref=\"bridges\">Getting Bridges</link> section for instructions on getting custom bridges."
+msgstr ""
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/how-tor-works.page:19(media)
+msgctxt "_"
+msgid "external ref='media/how-tor-works.png' md5='6fe4151a88b7a518466f0582e40ccc8c'"
+msgstr ""
+
+#: C/how-tor-works.page:6(info/title)
+msgctxt "sort"
+msgid "01 Tor"
+msgstr ""
+
+#: C/how-tor-works.page:7(info/desc)
+msgid "How Tor works."
+msgstr ""
+
+#: C/how-tor-works.page:11(page/title)
+msgid "Tor"
+msgstr ""
+
+#: C/how-tor-works.page:12(page/p)
+msgid "Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as <em>relays</em>) in the Tor network, before the traffic is sent out onto the public Internet"
+msgstr ""
+
+#: C/how-tor-works.page:20(page/p)
+msgid "The image above illustrates a user browsing to different websites over Tor. The green monitors represent relays in the Tor network, while the three keys represent the layers of encryption between the user and each relay."
+msgstr ""
+
+#: C/how-tor-works.page:26(page/p)
+msgid "Tor will anonymize the origin of your traffic, and it will encrypt everything between you and the Tor network. Tor will also encrypt your traffic inside the Tor network, but it cannot encrypt your traffic between the Tor network and its final destination."
+msgstr ""
+
+#: C/how-tor-works.page:32(page/p)
+msgid "If you are communicating sensitive information, for example when logging on to a website with a username and password, make sure that you are using HTTPS (e.g. <input><em>https</em>://torproject.org/</input>, not <input><em>http</em>://torproject.org/</input>)."
+msgstr ""
+
+#: C/index.page:6(page/title)
+msgid "Tor Browser Help"
+msgstr ""
+
+#: C/index.page:7(page/p)
+msgid "Version: UNKNOWN-dirty"
+msgstr ""
+
+#: C/known-issues.page:7(info/desc)
+msgid "A list of known issues."
+msgstr ""
+
+#: C/known-issues.page:8(info/title)
+msgctxt "sort"
+msgid "03 Known Issues"
+msgstr ""
+
+#: C/known-issues.page:12(page/title)
+msgid "Known Issues"
+msgstr ""
+
+#: C/known-issues.page:16(item/p)
+msgid "The following firewall software have been known to interfere with Tor and may need to be temporarily disabled:"
+msgstr ""
+
+#: C/known-issues.page:20(item/p)
+msgid "Webroot SecureAnywhere"
+msgstr ""
+
+#: C/known-issues.page:23(item/p)
+msgid "Kaspersky Internet Security 2012"
+msgstr ""
+
+#: C/known-issues.page:26(item/p)
+msgid "Sophos Antivirus for Mac"
+msgstr ""
+
+#: C/known-issues.page:29(item/p)
+msgid "Microsoft Security Essentials"
+msgstr ""
+
+#: C/known-issues.page:34(item/p)
+msgid "Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons. Most YouTube videos can be played with HTML5 by visiting the video's \"Embed\" → \"Share\" link."
+msgstr ""
+
+#: C/known-issues.page:41(item/p)
+msgid "Tor can not use a bridge if a proxy is set."
+msgstr ""
+
+#: C/known-issues.page:46(item/p)
+msgid "The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible."
+msgstr ""
+
+#: C/known-issues.page:52(item/p)
+msgid "To run Tor Browser on Ubuntu, users need to execute a shell script. Open \"Files\" (Unity's explorer), open Preferences → Behavior Tab → Set \"Run executable text files when they are opened\" to \"Ask every time\", then OK. Tor Browser can also be started from the command line by running"
+msgstr ""
+
+#: C/known-issues.page:58(item/code)
+#, no-wrap
+msgid ""
+"\n"
+"    ./start-tor-browser\n"
+"    "
+msgstr ""
+
+#: C/known-issues.page:61(item/p)
+msgid "from inside the Tor Browser directory."
+msgstr ""
+
+#: C/known-issues.page:66(page/p)
+msgid "If you have an issue with Tor Browser that isn't on this list, feel free to email help@rt.torproject.org."
+msgstr ""
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/troubleshooting.page:19(media)
+msgctxt "_"
+msgid "external ref='media/tor-launcher-connect_en-US.png' md5='03118f523f4cbc7c001da1ddacc9e394'"
+msgstr ""
+
+#: C/troubleshooting.page:7(info/title)
+msgctxt "sort"
+msgid "02 Troubleshooting"
+msgstr ""
+
+#: C/troubleshooting.page:8(info/desc)
+msgid "What to do if Tor Browser doesn't work."
+msgstr ""
+
+#: C/troubleshooting.page:12(page/title)
+msgid "Troubleshooting"
+msgstr ""
+
+#: C/troubleshooting.page:14(page/p)
+msgid "The Tor Browser should get you online automatically after clicking the \"Connect\" button on the start up screen."
+msgstr ""
+
+#: C/troubleshooting.page:21(page/p)
+msgid "If it doesn't connect, there may be a simple fix. Try each of the following:"
+msgstr ""
+
+#: C/troubleshooting.page:27(item/p)
+msgid "Make sure another Tor Browser is not already running. If you're not sure if Tor Browser is running, restart your computer."
+msgstr ""
+
+#: C/troubleshooting.page:31(item/p)
+msgid "'Allow' Tor in your antivirus program."
+msgstr ""
+
+#: C/troubleshooting.page:34(item/p)
+msgid "Temporarily disable your firewall."
+msgstr ""
+
+#: C/troubleshooting.page:37(item/p)
+msgid "Delete Tor Browser and install it again. If updating, do not overwrite your previous Tor Browser files."
+msgstr ""
+
+#: C/troubleshooting.page:42(page/p)
+msgid "If you still can't connect, your internet service provider might be censoring connections to Tor. Follow the instructions in the <link xref=\"circumvention\">Circumvention</link> section."
+msgstr ""
+
+#: C/troubleshooting.page:48(page/p)
+msgid "If the above steps do not address your problem, email help@rt.torproject.org with your operating system, the details of your problem, and what you've already tried."
+msgstr ""
+
+#: C/uninstalling.page:7(info/desc)
+msgid "How to remove Tor Browser from your system."
+msgstr ""
+
+#: C/uninstalling.page:8(info/title)
+msgctxt "sort"
+msgid "06 Uninstalling"
+msgstr ""
+
+#: C/uninstalling.page:12(page/title)
+msgid "Uninstalling"
+msgstr ""
+
+#: C/uninstalling.page:14(page/p)
+msgid "The Tor Browser does not affect any of the existing software or settings on your computer. Uninstalling Tor Browser will not affect your system's software or settings either."
+msgstr ""
+
+#: C/uninstalling.page:20(page/p)
+msgid "Removing the Tor Browser from your system is simple:"
+msgstr ""
+
+#: C/uninstalling.page:26(item/p)
+msgid "Locate your Tor Browser folder. The default location is your Desktop."
+msgstr ""
+
+#: C/uninstalling.page:29(item/p)
+msgid "Delete the Tor Browser folder."
+msgstr ""
+
+#: C/uninstalling.page:32(item/p)
+msgid "Empty your Trash"
+msgstr ""
+
+#: C/uninstalling.page:36(page/p)
+msgid "Note that your operating system's standard \"Uninstall\" utility is not used."
+msgstr ""
+

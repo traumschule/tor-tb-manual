@@ -16,7 +16,7 @@
     in the Tor network, before the traffic is sent out onto the public
     Internet
   </p>
-  <media type="image" src="imgs/how-tor-works.png" />
+  <media type="image" src="media/how-tor-works.png" />
   <p>
     The image above illustrates a user browsing to different websites
     over Tor. The green monitors represent relays in the Tor network,
