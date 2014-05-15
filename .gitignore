@@ -3,6 +3,7 @@
 #*
 
 /html
+/pdf
 /tor-browser-version.txt
 
 /tor-browser-user-manual.pot
@@ -12,6 +13,7 @@
 /[a-z][a-z]_[A-Z][A-Z]/*.mo
 /[a-z][a-z]_[A-Z][A-Z]/*.stamp
 /[a-z][a-z]_[A-Z][A-Z]/*.page
+/media-symlinks.stamp
 
 /Makefile
 /Makefile.in
