@@ -13,6 +13,11 @@
 
 <list>
   <item>
+    <p>
+    Tor needs your system clock (and your time zone) set to the correct time.
+    </p>
+  </item>
+  <item>
     <p>The following firewall software have been known to interfere with Tor 
     and may need to be temporarily disabled:</p>
     <list>
