@@ -6,7 +6,7 @@ HELP_ID = tor-browser-user-manual
 HELP_FILES = $(shell cd C && git ls-files '*.page')
 HELP_MEDIA = $(shell cd C && git ls-files 'media')
 HELP_PLATFORMS = windows macosx linux
-HELP_LINGUAS = ar de es fa fr it ko nl pl pt_PT ru tr vi zh_CN
+HELP_LINGUAS = @TOR_BROWSER_BUNDLE_LOCALES@
 
 .PHONY: html
 html: all media-symlinks.stamp
