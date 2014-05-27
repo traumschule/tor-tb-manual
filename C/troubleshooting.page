@@ -4,9 +4,8 @@
   id="troubleshooting">
 
 <info>
-  <title type="sort">02 Troubleshooting</title>
   <desc>What to do if Tor Browser doesn't work.</desc>
-  <link type="guide" xref="index"/>
+  <link type="guide" xref="index" group="#last" />
 </info>
 
 <title>Troubleshooting</title>

@@ -5,8 +5,7 @@
 
 <info>
   <desc>A list of known issues.</desc>
-  <title type='sort'>03 Known Issues</title>
-  <link type="guide" xref="index"/>
+  <link type="guide" xref="index" group="#last" />
 </info>
 
 <title>Known Issues</title>

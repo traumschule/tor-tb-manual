@@ -3,9 +3,8 @@
       id="how-tor-works">
 
   <info>
-    <title type='sort'>01 Tor</title>
     <desc>How Tor works.</desc>
-    <link type="guide" xref="index"/>
+    <link type="guide" xref="index" group="#first"/>
   </info>
 
   <title>Tor</title>
