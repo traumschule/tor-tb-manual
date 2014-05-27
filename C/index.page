@@ -9,4 +9,3 @@
     <span its:translate="no"><xi:include href="../tor-browser-version.txt" parse="text"/></span>
   </p>
 </page>
-
