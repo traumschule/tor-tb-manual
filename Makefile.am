@@ -2,6 +2,9 @@
 
 # XXX: turn into ./configure option
 MAL2LATEX = ../mal2latex
+# XXX: turn into ./configure option
+TOR_AND_HTTPS = ../tor-and-https
+
 HELP_ID = tor-browser-user-manual
 HELP_FILES = $(shell cd C && git ls-files '*.page')
 HELP_MEDIA = $(shell cd C && git ls-files 'media')
@@ -46,6 +49,15 @@ media-symlinks.stamp: all
 			done; \
 		done
 	touch media-symlinks.stamp
+
+.PHONY: update-tor-and-https
+update-tor-and-https:
+	set -e && \
+		for lc in C $(HELP_LINGUAS); do \
+			find $(TOR_AND_HTTPS) \
+				-wholename "*/$$(echo $$lc | sed -e 's/^\([^_-]*\).*/\1/')*/tor-and-https.svg" \
+				-exec cp {} $$lc/media ';'; \
+		done
 
 clean:
 	set -e && \

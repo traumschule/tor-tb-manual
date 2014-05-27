@@ -1,0 +1,228 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      type="topic"
+      id="tor">
+
+  <info>
+    <link type="guide" xref="index" group="#first"/>
+    <desc>Learn what Tor can do to protect your privacy and anonymity.</desc>
+  </info>
+
+  <title>Tor</title>
+
+  <section id="what-tor-will-do">
+    <title>What Tor will do</title>
+
+    <p>
+      The <app its:translate="no">Tor Browser</app> uses the <app
+      its:translate="no">Tor</app> network to protect your privacy
+      and anonymity. Using the <app its:translate="no">Tor</app> network has two
+      main properties:
+    </p>
+
+    <list>
+      <item>
+        <p>
+          The Internet access provider will not be able to learn the sites
+          being visited and will not be able to monitor the content of
+          the communication.
+        </p>
+      </item>
+      <item>
+        <p>
+          The sites will see a connection coming from the <app
+          its:translate="no">Tor</app> network and will not learn
+          the actual Internet connection used to visit them.
+        </p>
+      </item>
+    </list>
+
+    <p>
+      On top of that, the <app its:translate="no">Tor Browser</app> is designed
+      to minimize the ability of websites to fingerprint the browser.
+    </p>
+    <p>
+      The Tor Browser does not keep any browsing history. <em>Cookies</em>
+      are only valid for a single session: until the <app its:translate="no">Tor
+      Browser</app> is exited or a <!-- XXX: add link --><gui>New Identity</gui>
+      is requested.
+    </p>
+
+    <!-- XXX: add Tor Browser team/mikeperry about things that are worth
+    adding here. -->
+  </section>
+
+  <section id="what-tor-will-not-do">
+    <title>What Tor will <em>not</em> do</title>
+
+    <p>
+      <app its:translate="no">Tor</app> and the <app its:translate="no">Tor
+      Browser</app> will protect your privacy and anonymity only if used
+      appropriately.
+    </p>
+
+    <list>
+      <item>
+        <p>
+          <app its:translate="no">Tor</app> will not encrypt the whole
+          communication. What is sent to the <app its:translate="no">Tor</app>
+          network is what leaves the <app its:translate="no">Tor</app> network.
+          For web browsing, this means that any confidential information
+          should be sent using the HTTPS protocol.
+          <!-- XXX: add a link to another topic page / document HTTPS Everywhere
+          -->
+          <!-- XXX: mention hidden services? -->
+        </p>
+      </item>
+      <item>
+        <p>
+          If you give a website identifying information (e.g. a name, a
+          <em>login</em>), you will no longer be an anonymous visitor of this
+          website.
+        </p>
+      </item>
+      <item>
+        <p>
+          If you transfer files, they can contain identifying information in their
+          metadata, like the camera serial number.
+        </p>
+      </item>
+      <item>
+        <p>
+          Only connections made through the <app its:translate="no">Tor
+          Browser</app> will go through the <app its:translate="no">Tor</app>
+          network. Unless specific steps are taken, other applications on your
+          computer will continue to do direct Internet connections and can
+          reveal your location.
+          <!-- XXX: add topic page on how to deal with external documents? /
+          mention Tails? -->
+        </p>
+      </item>
+    </list>
+
+    <p>
+      If loosing control over some information might have problematic
+      consequences, it is sometimes better to leave it off computers entirely.
+    </p>
+  </section>
+
+  <section id="how-tor-works">
+    <title>How Tor works</title>
+
+    <p>
+      Tor is a network of virtual tunnels that allows you to improve your
+      privacy and security on the Internet. Tor works by sending your
+      traffic through three random servers (also known as <em>relays</em>)
+      in the Tor network, before the traffic is sent out onto the public
+      Internet
+    </p>
+    <media type="image" src="media/how-tor-works.png" />
+    <p>
+      The image above illustrates a user browsing to different websites
+      over Tor. The green monitors represent relays in the Tor network,
+      while the three keys represent the layers of encryption between the
+      user and each relay.
+    </p>
+  </section>
+
+  <section id="tor-and-https">
+    <title>Tor and HTTPS</title>
+
+    <p>
+      The following visualization helps understanding what data are visible to
+      eavesdroppers with or without the <app its:translate="no">Tor Browser</app>
+      and when encrypted connections (HTTPS) or not:
+    </p>
+
+    <xi:include href="media/tor-and-https.svg" />
+
+    <list>
+      <item>
+        <p>
+          Click the <gui>Tor</gui> button to see what data is visible to
+          eavesdroppers when you're using Tor. The button will turn green to
+          indicate that Tor is on.
+        </p>
+      </item>
+      <item>
+        <p>
+          Click the <gui>HTTPS</gui> button to see what data is visible to
+          eavesdroppers when you're using HTTPS. The button will turn green to
+          indicate that HTTPS is on.
+        </p>
+      </item>
+      <item>
+        <p>
+          When both buttons are green, you see the data that is visible to
+          eavesdroppers when you are using both tools.
+        </p>
+      </item>
+      <item>
+        <p>
+          When both buttons are grey, you see the data that is visible
+          to eavesdroppers when you don't use either tool.
+        </p>
+      </item>
+    </list>
+    <terms>
+      <title>Potentially visible data</title>
+      <item>
+        <title its:translate="no">
+          <xi:include href="media/tor-and-https.svg" parse="xml"
+                      xpointer="xpointer(//*[@id='string-site']/text())">
+             <xi:fallback>site.com</xi:fallback>
+          </xi:include>
+        </title>
+        <p>
+          The site being visited.
+        </p>
+      </item>
+      <item>
+        <title its:translate="no">
+          <xi:include href="media/tor-and-https.svg" parse="xml"
+                      xpointer="xpointer(//*[@id='string-login']/text())">
+            <xi:fallback>user / pw</xi:fallback>
+          </xi:include>
+        </title>
+        <p>
+          Username and password used for authentication.
+        </p>
+      </item>
+      <item>
+        <title its:translate="no">
+          <xi:include href="media/tor-and-https.svg" parse="xml"
+                      xpointer="xpointer(//*[@id='string-data']/text())">
+            <xi:fallback>data</xi:fallback>-->
+          </xi:include>
+        </title>
+        <p>
+          Data being transmited.
+        </p>
+      </item>
+      <item>
+        <title its:translate="no">
+          <xi:include href="media/tor-and-https.svg" parse="xml"
+                      xpointer="xpointer(//*[@id='string-location']/text())">
+            <xi:fallback>location</xi:fallback>
+          </xi:include>
+        </title>
+        <p>
+          Network location of the computer used to visit the website (the public
+          IP address).
+        </p>
+      </item>
+      <item>
+        <title its:translate="no">
+          <xi:include href="media/tor-and-https.svg" parse="xml"
+                      xpointer="xpointer(//*[@id='string-tor']/text())">
+            <xi:fallback>Tor</xi:fallback>
+          </xi:include>
+        </title>
+        <p>
+         Whether or not Tor is being used.
+        </p>
+      </item>
+    </terms>
+  </section>
+</page>
