@@ -9,16 +9,20 @@ HELP_ID = tor-browser-user-manual
 HELP_FILES = $(shell cd $(srcdir)/C && git ls-files '*.page')
 HELP_MEDIA = $(shell cd $(srcdir)/C && git ls-files 'media')
 HELP_PLATFORMS = windows macosx linux
-HELP_LINGUAS = @TOR_BROWSER_BUNDLE_LOCALES@
+HELP_LINGUAS = en-US @TOR_BROWSER_BUNDLE_LOCALES@
 
 .PHONY: html
 html: all media-symlinks.stamp
 	set -e && \
-		for lc in C $(HELP_LINGUAS); do \
+		for lc in $(HELP_LINGUAS); do \
+			includes="$$(find include -maxdepth 1 -type f)" ; \
+			for file in $$includes; do \
+				mkdir -p $$(dirname $$file); \
+				ln -nsf ../$$file $$lc/$$(basename $$file); \
+			done; \
 			for platform in $(HELP_PLATFORMS); do \
 				mkdir -p html/$$platform/$$lc; \
-				yelp-build html -p include \
-						-x $(srcdir)/platform-$$platform.xslt \
+				yelp-build html -x $(srcdir)/platform-$$platform.xslt \
 						-o html/$$platform/$$lc $$lc; \
 				for ttf in $$lc/media/*.ttf; do \
 					cp --preserve=timestamps $$ttf html/$$platform/$$lc/media; \
@@ -29,7 +33,7 @@ html: all media-symlinks.stamp
 .PHONY: pdf
 pdf: all media-symlinks.stamp
 	set -e && \
-		for lc in C $(HELP_LINGUAS); do \
+		for lc in $(HELP_LINGUAS); do \
 			for platform in $(HELP_PLATFORMS); do \
 				PDF_DIR=pdf/$$platform/$$lc; \
 				LATEX_FILE=$(HELP_ID)-$$lc.latex; \
