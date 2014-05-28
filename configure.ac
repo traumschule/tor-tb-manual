@@ -19,11 +19,12 @@ if test "x$TOR_BROWSER_VERSION" = "x"; then
 fi
 TOR_BROWSER_BUNDLE_LOCALES=$(. "$VERSIONS_PATH"; echo "$BUNDLE_LOCALES")
 
+AC_SUBST(TOR_BROWSER_VERSION)
 AC_SUBST(TOR_BROWSER_BUNDLE_LOCALES)
 
 YELP_HELP_INIT
 
 AC_CONFIG_FILES([Makefile
-                 tor-browser-version.txt])
+                 include/tor-browser-version.xml])
 
 AC_OUTPUT

@@ -6,6 +6,10 @@
   <title>Tor Browser User Manual</title>
   <p its:locNote="&lt;span/&gt; will be replaced by current Tor Browser version">
     Version:
-    <span its:translate="no"><xi:include href="../tor-browser-version.txt" parse="text"/></span>
+    <span its:translate="no"
+     ><xi:include href="tor-browser-version.xml" parse="xml" xpointer="xpointer(//text()))">
+        <xi:fallback>UNKNOWN</xi:fallback>
+      </xi:include>
+    </span>
   </p>
 </page>

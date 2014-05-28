@@ -6,8 +6,8 @@ MAL2LATEX = ../mal2latex
 TOR_AND_HTTPS = ../tor-and-https
 
 HELP_ID = tor-browser-user-manual
-HELP_FILES = $(shell cd C && git ls-files '*.page')
-HELP_MEDIA = $(shell cd C && git ls-files 'media')
+HELP_FILES = $(shell cd $(srcdir)/C && git ls-files '*.page')
+HELP_MEDIA = $(shell cd $(srcdir)/C && git ls-files 'media')
 HELP_PLATFORMS = windows macosx linux
 HELP_LINGUAS = @TOR_BROWSER_BUNDLE_LOCALES@
 
@@ -17,7 +17,8 @@ html: all media-symlinks.stamp
 		for lc in C $(HELP_LINGUAS); do \
 			for platform in $(HELP_PLATFORMS); do \
 				mkdir -p html/$$platform/$$lc; \
-				yelp-build html -x platform-$$platform.xslt \
+				yelp-build html -p include \
+						-x $(srcdir)/platform-$$platform.xslt \
 						-o html/$$platform/$$lc $$lc; \
 			done; \
 		done
@@ -38,13 +39,17 @@ pdf: all media-symlinks.stamp
 			done; \
 		done;
 
-media-symlinks.stamp: all
+media-symlinks.stamp:
 	set -e && \
-		for lc in C $(HELP_LINGUAS); do \
+		for lc in $(HELP_LINGUAS); do \
 			for media in $(HELP_MEDIA); do \
 				if ! [ -f $$lc/$$media ]; then \
 					mkdir -p $$(dirname $$lc/$$media); \
-					ln -nsf ../../C/$$media $$lc/$$media; \
+					if [ -f $(srcdir)/$$lc/$$media ]; then \
+						ln -nsf $(abs_srcdir)/$$lc/$$media $$lc/$$media; \
+					else \
+						ln -nsf $(abs_srcdir)/C/$$media $$lc/$$media; \
+					fi; \
 				fi; \
 			done; \
 		done
