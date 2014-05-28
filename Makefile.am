@@ -20,6 +20,9 @@ html: all media-symlinks.stamp
 				yelp-build html -p include \
 						-x $(srcdir)/platform-$$platform.xslt \
 						-o html/$$platform/$$lc $$lc; \
+				for ttf in $$lc/media/*.ttf; do \
+					cp --preserve=timestamps $$ttf html/$$platform/$$lc/media; \
+				done; \
 			done; \
 		done
 
@@ -59,10 +62,24 @@ media-symlinks.stamp:
 update-tor-and-https:
 	set -e && \
 		for lc in C $(HELP_LINGUAS); do \
-			find $(TOR_AND_HTTPS) \
-				-wholename "*/$$(echo $$lc | sed -e 's/^\([^_-]*\).*/\1/')*/tor-and-https.svg" \
-				-exec cp {} $$lc/media ';'; \
+			for file in $$(find $(TOR_AND_HTTPS) \
+					-wholename "*/$$(echo $$lc | sed -e 's/^\([^_-]*\).*/\1/')*/tor-and-https.svg"); do \
+				cp $$file $$lc/media; \
+				git add $$lc/media/$$(basename $$file); \
+			done; \
+			for ttf in $$(find $(TOR_AND_HTTPS) \
+					-wholename "*/$$(echo $$lc | sed -e 's/^\([^_-]*\).*/\1/')*/*.ttf"); do \
+				if ! [ -f "C/media/$$(basename $$ttf)" ]; then \
+					cp "$$ttf" C/media; \
+					git add "C/media/$$(basename $$ttf)"; \
+				fi; \
+				if [ $$lc != "C" ]; then \
+					ln -nsf "../../C/media/$$(basename $$ttf)" $$lc/media;  \
+					git add "$$lc/media/$$(basename $$ttf)"; \
+				fi; \
+			done; \
 		done
+	git status --short --untracked-files=no
 
 clean:
 	set -e && \
