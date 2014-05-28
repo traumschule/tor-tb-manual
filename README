@@ -10,7 +10,7 @@ Building the HTML version
 
 Required dependencies on Debian:
 
-    autoconf yelp-tools yelp-xsl intltool
+    git autoconf yelp-tools yelp-xsl intltool
 
 Bootstrap:
 
