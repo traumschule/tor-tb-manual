@@ -17,6 +17,8 @@ TOR_BROWSER_VERSION=$(eval $(GIT_DIR=${tor_browser_bundle_dir}/.git $GET_TB_VERS
 if test "x$TOR_BROWSER_VERSION" = "x"; then
     AC_MSG_ERROR([Couldn't determine Tor Browser version.])
 fi
+
+VERSIONS_PATH="${tor_browser_bundle_dir}/gitian/versions"
 TOR_BROWSER_BUNDLE_LOCALES=$(. "$VERSIONS_PATH"; echo "$BUNDLE_LOCALES")
 
 AC_SUBST(TOR_BROWSER_VERSION)
