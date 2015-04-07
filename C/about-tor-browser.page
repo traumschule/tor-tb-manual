@@ -1,0 +1,68 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="about-tor-browser">
+
+  <info>
+    <link type="guide" xref="index" group="#first"/>
+    <desc>Learn what Tor Browser can do to protect your privacy and anonymity.</desc>
+  </info>
+
+  <title>About Tor Browser</title>
+
+    <p>
+      Tor Browser uses the Tor network to protect your privacy and
+      anonymity. Using the Tor network has two main properties:
+    </p>
+    <list>
+      <item>
+        <p>
+          Your internet activity, including the names and addresses of
+          the websites you visit, will be hidden from your Internet
+          service provider and from anyone watching your connection
+          locally.
+        </p>
+      </item>
+      <item>
+        <p>
+          The operators of the websites and services that you use, and
+          anyone watching them, will see a connection coming from the
+          Tor network instead of your real Internet (IP) address, and
+          will not know who you are unless you explicitly identify
+          yourself.
+        </p>
+      </item>
+    </list>
+    <p>
+      In addition, Tor Browser is designed to prevent websites from
+      “fingerprinting” or identifying you based on your browser
+      configuration.
+    </p>
+    <p>
+      By default, Tor Browser does not keep any browsing history.
+      Cookies are only valid for a single session (until Tor Browser
+      is exited or a <link xref='managing-identities#new-identity'>New
+      Identity</link> is requested).
+    </p>
+    
+    <!-- XXX: ask Tor Browser team/mikeperry about things that are worth
+    adding here. -->
+
+  <section id="how-tor-works">
+    <title>How Tor works</title>
+
+    <p>
+      Tor is a network of virtual tunnels that allows you to improve your
+      privacy and security on the Internet. Tor works by sending your
+      traffic through three random servers (also known as <em>relays</em>)
+      in the Tor network. The last relay in the circuit (the “exit relay”)
+      then sends the traffic out onto the public Internet.
+    </p>
+    <media type="image" src="media/how-tor-works.png" />
+    <p>
+      The image above illustrates a user browsing to different websites
+      over Tor. The green monitors represent relays in the Tor network,
+      while the three keys represent the layers of encryption between the
+      user and each relay.
+    </p>
+  </section>
+</page>

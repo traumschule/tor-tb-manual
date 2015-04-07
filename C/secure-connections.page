@@ -1,0 +1,118 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+  type="topic"
+  id="secure-connections">
+
+  <info>
+    <desc>Learn how to protect your data using Tor Browser and HTTPS</desc>
+    <link type="guide" xref="index" />
+  </info>
+
+  <title>Secure Connections</title>
+
+  <p>
+  If personal information such as a login password travels
+  unencrypted over the Internet, it can very easily be intercepted by an
+  eavesdropper. If you are logging into any website, you should
+  make sure that the site offers HTTPS encryption, which protects against
+  this kind of eavesdropping. You can verify this in the URL bar: if your
+  connection is encrypted, the address will begin with “https://”, rather
+  than “http://”.
+  </p>
+   
+  <p>
+  The following visualization shows what information is visible to
+  eavesdroppers with and without Tor Browser and HTTPS encryption:
+  </p>
+
+    <xi:include href="media/tor-and-https.svg" />
+
+    <list>
+      <item>
+        <p>
+          Click the “Tor” button to see what data is visible to
+          observers when you're using Tor. The button will turn green to
+          indicate that Tor is on.
+        </p>
+      </item>
+      <item>
+        <p>
+          Click the “HTTPS” button to see what data is visible to
+          observers when you're using HTTPS. The button will turn green to
+          indicate that HTTPS is on.
+        </p>
+      </item>
+      <item>
+        <p>
+          When both buttons are green, you see the data that is visible to
+          observers when you are using both tools.
+        </p>
+      </item>
+      <item>
+        <p>
+          When both buttons are grey, you see the data that is visible
+          to observers when you don't use either tool.
+        </p>
+      </item>
+    </list>
+    <terms>
+      <title>Potentially visible data</title>
+      <item>
+        <title its:translate="no">
+          <xi:include href="media/tor-and-https.svg" parse="xml"
+                      xpointer="xpointer(//*[@id='string-site']/text())">
+             <xi:fallback>site.com</xi:fallback>
+          </xi:include>
+        </title>
+        <p>
+          The site being visited.
+        </p>
+      </item>
+      <item>
+        <title its:translate="no">
+          <xi:include href="media/tor-and-https.svg" parse="xml"
+                      xpointer="xpointer(//*[@id='string-login']/text())">
+            <xi:fallback>user / pw</xi:fallback>
+          </xi:include>
+        </title>
+        <p>
+          Username and password used for authentication.
+        </p>
+      </item>
+      <item>
+        <title its:translate="no">
+          <xi:include href="media/tor-and-https.svg" parse="xml"
+                      xpointer="xpointer(//*[@id='string-data']/text())">
+            <xi:fallback>data</xi:fallback>-->
+          </xi:include>
+        </title>
+        <p>
+          Data being transmitted.
+        </p>
+      </item>
+      <item>
+        <title its:translate="no">
+          <xi:include href="media/tor-and-https.svg" parse="xml"
+                      xpointer="xpointer(//*[@id='string-location']/text())">
+            <xi:fallback>location</xi:fallback>
+          </xi:include>
+        </title>
+        <p>
+          Network location of the computer used to visit the website (the public
+          IP address).
+        </p>
+      </item>
+      <item>
+        <title its:translate="no">
+          <xi:include href="media/tor-and-https.svg" parse="xml"
+                      xpointer="xpointer(//*[@id='string-tor']/text())">
+            <xi:fallback>Tor</xi:fallback>
+          </xi:include>
+        </title>
+        <p>
+         Whether or not Tor is being used.
+        </p>
+      </item>
+    </terms>
+</page>

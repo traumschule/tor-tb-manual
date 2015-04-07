@@ -1,151 +1,78 @@
-
 <page xmlns="http://projectmallard.org/1.0/"
   type="topic"
   id="bridges">
 
 <info>
-  <desc>What bridges are and how to use them.</desc>
-  <link type="guide" xref="index" />
+  <desc>Learn what bridges are and how to get them</desc>
+  <link type="topic" xref="circumvention" />
 </info>
 
 <title>Bridges</title>
 
 <p>
-Bridges are quiet gateways into the Tor Network. Like Tor relays, they are run
-by volunteers. Unlike relays, they are not listed publicly. Using bridges
-disguise the fact that one is using Tor.  
+ Most <link xref='transports'>Pluggable Transports</link>, such as obfs3
+ and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges
+ are run by volunteers; unlike ordinary relays, however, they are not listed
+ publicly, so an adversary cannot identify them easily. Using bridges in
+ combination with pluggable transports helps to disguise the fact that you
+ are using Tor.
 </p>
 
 <p>
-Currently there are five bridge types, or transports, available. More are 
-being developed. 
-</p>
-<table frame='all' rules='all'>
-  <tr>
-    <td>
-      <p>
-      ORPort
-      </p>
-    </td>
-    <td>
-      <p>
-      Requesting 'bridges' without specifying the bridge type, will return 
-      ORPort bridges, also called Vanilla bridges. ORPort bridges are NOT 
-      reliable for circumventing censorship or national firewalls. ORPort 
-      bridges can be useful as trusted entry points into the Tor network. 
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-      obfs2
-      </p> 
-    </td>
-    <td>
-      <p>
-      Censors have learned how to identify obfs2 bridges. This transport 
-      is being deprecated.
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-      obfs3
-      </p>
-    </td>
-    <td>
-      <p>
-      Obfsproxy disguises Tor traffic as random noise. obfs3 bridges work 
-      almost everywhere. A few obfs3 bridges have been blocked. 
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-      Scramblesuit
-      </p>
-    </td>
-    <td>
-      <p>
-      Scramblesuit is an additional tool for the obfsproxy transport. 
-      Scramblesuit bridges are designed to be hard to identify and hard to 
-      block. 
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-      FTE
-      </p>
-    </td>
-    <td>
-      <p>
-      Format-Transforming Encryption disguises Tor traffic as web (HTTP) 
-      traffic or other types of internet traffic. FTE bridges are 
-      effective, but in limited supply. 
-      </p>
-    </td>
-  </tr>
-</table>
-
-<p>
-(Note that flashproxy is a Pluggable Transport, but does not rely on bridges.)
+Other pluggable transports, like meek and Flashproxy, use different
+anti-censorship techniques that do not rely on bridges. You do not need
+to obtain bridge addresses in order to use these transports.
 </p>
 
-<p>
-There are four ways to get a bridge. 
-</p>
+<section id="getting-bridges">
+ <title>Getting bridge addresses</title>
+ <p>
+ Because bridge addresses are not public, you will need to request them
+ yourself. You have three options:
+ </p>
 
-<steps>
+<list>
   <item>
     <p>
-    Visit <link href='https://bridges.torproject.org/'>https://bridges.torproject.org/</link> and follow the instructions.
+    Visit <link href='https://bridges.torproject.org/'>https://bridges.torproject.org/</link>
+    and follow the instructions, or
     </p>
   </item>
   <item>
     <p>
-    Email bridges@bridges.torproject.org from a gmail or yahoo 
-    email address. Put <cmd>get bridges</cmd> in the body for ORPort bridges 
-    or <cmd>transport=obfs3</cmd> for obfs3 bridges. 
+    Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email
+    address, or
     </p>
   </item>
   <item>
     <p>
-    Politely ask a human at help@rt.torproject.org if you cannot access 
-    either of the first two methods. 
+    Politely ask a human at help@rt.torproject.org if neither of the first
+    two methods works for you.
     </p>
   </item>
-  <item>
-    <p>
-    Install and configure a Tor instance to be bridge  
-    for yourself. The computer acting as a bridge must have uncensored internet 
-    access to the Tor network. A full installation guide can be found at
-    <link href='https://www.torproject.org/projects/obfsproxy-debian-instructions.html.en'>https://www.torproject.org/projects/obfsproxy-debian-instructions.html.en</link>
-    </p>
-  </item>
-</steps>
+</list>
+</section>
 
-<p>
-Enter the bridge information you get from any of the above steps in 
-Tor-launcher.
-</p>
+<section id="entering-bridges">
+ <title>Entering bridge addresses</title>
+ <p>
+ Once you have obtained some bridge addresses, you will need to enter them
+ into Tor Launcher.
+ </p>
 
-<p>
-Choose yes when asked if your Internet Service Provider blocks connections to 
-the Tor network. Select 'Use custom bridges' and enter each bridge identifier 
-on its own line.
-</p>
+ <p>
+ Choose “yes” when asked if your Internet Service Provider blocks connections to 
+ the Tor network. Select “Use custom bridges” and enter each bridge address
+ on a separate line.
+ </p>
 
-<media type="image" src="media/tor-launcher-custom-bridges_en-US.png" />
+ <media type="image" src="media/tor-launcher-custom-bridges_en-US.png" />
 
-<p>
-Click Connect. Using bridges slow down the connection. If the connection fails,
-the bridges you received may be down. Get more and try again. 
-</p>
-
+ <p>
+ Click “Connect”. Using bridges may slow down the connection compared to
+ using ordinary Tor relays. If the connection fails, the bridges you
+ received may be down. Please use one of the above methods to obtain
+ more bridge addresses, and try again.
+ </p>
+</section>
 </page>
-

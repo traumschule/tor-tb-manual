@@ -1,11 +1,10 @@
-
 <page xmlns="http://projectmallard.org/1.0/"
   type="topic"
   id="known-issues">
 
 <info>
   <desc>A list of known issues.</desc>
-  <link type="guide" xref="index" group="#last" />
+  <link type="topic" xref="troubleshooting" />
 </info>
 
 <title>Known Issues</title>
@@ -67,9 +66,4 @@
     </p>
   </item>
 </list>
-<p>
-If you have an issue with Tor Browser that isn't on this list, feel free to 
-email help@rt.torproject.org. 
-</p>
 </page>
-

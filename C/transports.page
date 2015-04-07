@@ -1,0 +1,112 @@
+<page xmlns="http://projectmallard.org/1.0/"
+  type="topic"
+  id="transports">
+
+<info>
+  <desc>Types of pluggable transport</desc>
+  <link type="topic" xref="circumvention" />
+</info>
+
+<title>Pluggable Transports</title>
+
+<p>
+Pluggable transports are tools that Tor can use to disguise the
+traffic it sends out. This can be useful in situations where an Internet
+Service Provider or other authority is actively blocking connections to
+the Tor network.
+</p>
+
+<section id="types">
+<title>Types of pluggable transport</title>
+<p>
+Currently there are six pluggable transports available, but more are
+being developed.
+</p>
+<table frame='all' rules='all'>
+  <tr>
+    <td>
+      <p>
+      obfs2
+      </p> 
+    </td>
+    <td>
+      <p>
+      Censors have learned how to identify obfs2 bridges. This transport 
+      is deprecated, and you should not use it.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>
+      obfs3
+      </p>
+    </td>
+    <td>
+      <p>
+      obfs3 disguises Tor traffic as random noise. obfs3 bridges work 
+      almost everywhere, though some may have been identified and
+      blocked by censors.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>
+      Scramblesuit
+      </p>
+    </td>
+    <td>
+      <p>
+      Scramblesuit is an additional tool for the obfs3 transport that
+      tries to stop censors from identifying bridges through active
+      probing.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>
+      obfs4
+      </p>
+    </td>
+    <td>
+      <p>
+      obfs4 offers the same features as Scramblesuit, but uses different
+      cryptographic and authentication methods that result in improved
+      speed.
+      </p>
+    </td>
+  </tr>
+  <tr>
+   <td>
+    <p>
+    meek
+    </p>
+   </td>
+   <td>
+    <p>
+    Rather than using bridges, meek works by making your Tor traffic
+    seem as though it is destined for a major website that a censor
+    cannot block without disrupting a lot of other activity on the
+    network.
+    </p>
+   </td>
+  </tr>
+  <tr>
+    <td>
+      <p>
+      FTE
+      </p>
+    </td>
+    <td>
+      <p>
+      Format-Transforming Encryption disguises Tor traffic as web (HTTP) 
+      traffic or other types of internet traffic. FTE bridges are 
+      effective, but in limited supply. 
+      </p>
+    </td>
+  </tr>
+</table>
+</section>
+</page>

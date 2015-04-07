@@ -1,0 +1,68 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="first-time">
+
+  <info>
+    <link type="guide" xref="index" group="#first" />
+    <desc>Learn how to use Tor Browser for the first time</desc>
+  </info>
+
+  <title>Running Tor Browser for the First Time</title>
+  
+  <p>
+  When you run Tor Browser for the first time, you will see the Tor
+  Launcher window. This offers you the option to connect directly to the
+  Tor network, or to configure Tor Browser for your connection.
+  </p>
+  
+  <section id="connect">
+    <title>Connect</title>
+    <p>
+    In most cases, this option will allow you to connect to the Tor network
+    without any further configuration. Once clicked, a status bar will
+    appear, showing Tor’s connection progress. If you are on a relatively
+    fast connection, but this bar seems to get stuck at a certain point,
+    see the <link xref='troubleshooting'>Troubleshooting</link> page for
+    help solving the problem.
+    </p>
+  </section>
+  <section id="configure">
+   <title>Configure</title>
+    <p>
+    If you know that your connection is censored, or uses a proxy, you should
+    select this option. Tor Launcher will take you through a series of
+    configuration options.
+    </p>
+   <steps>
+    <item>
+     <p>
+     The first screen asks if access to the Tor network is blocked or
+     censored on your connection. If you do not believe this is the case,
+     select “No”. If you know your connection is censored, or you have
+     tried and failed to connect to the Tor network and no other solutions
+     have worked, select “Yes”. You will then be taken to the <link
+     xref='circumvention'>Circumvention</link> screen to configure
+     a pluggable transport.
+     </p>
+    </item>
+    <item>
+     <p>
+     The next screen asks if your connection uses a proxy. In most cases,
+     this is not necessary. You will usually know if you need to answer
+     “Yes”, as the same settings will be used for other browsers on your
+     system. If possible, ask your network administrator for guidance. If
+     your connection does not use a proxy, answer “No”.
+     </p>
+    </item>
+    <item>
+     <p>
+     The final screen asks if your connection is behind a firewall that
+     only allows certain ports. If the answer is “Yes”, enter all the
+     allowed ports, separated by a comma but no spaces. If the answer is
+     “No”, click “Connect”.
+     </p>
+    </item>
+   </steps>
+  </section>
+
+</page>

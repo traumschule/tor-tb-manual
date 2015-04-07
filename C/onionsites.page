@@ -1,0 +1,67 @@
+<page xmlns="http://projectmallard.org/1.0/"
+  type="topic"
+  id="onionsites">
+
+<info>
+  <desc>Websites hosted in the Tor network</desc>
+  <link type="guide" xref="index" />
+</info>
+
+<title>Onionsites</title>
+<p>
+Onionsites (also known as “hidden services”) are websites that are only
+accessible through the Tor network.
+</p>
+
+<p>
+Onionsites offer several advantages over ordinary sites on the
+non-private web:
+</p>
+
+<list>
+ <item>
+  <p>
+  An onionsite’s location and IP address are hidden, making it difficult
+  for adversaries to censor it or identify its operators.
+  </p>
+ </item>
+ <item>
+  <p>
+  All traffic between Tor users and onionsites is end-to-end encrypted,
+  so you do not need to worry about <link
+  xref='secure-connections'>connecting over HTTPS</link>.
+  </p>
+ </item>
+ <item>
+  <p>
+  The address of an onionsite is automatically generated, so the
+  operators do not need to purchase a domain name; the .onion URL also
+  helps Tor ensure that it is connecting to the right location and that
+  the connection is not being tampered with.
+  </p>
+ </item>
+</list>
+
+<section id="access">
+<title>How to access an onionsite</title>
+<p>
+Just like any other website, you will need to know the address of an
+onionsite in order to connect to it. An onion address is a string of
+sixteen mostly random letters and numbers, followed by “.onion”.
+</p>
+</section>
+
+<section id="troubleshooting">
+<title>Troubleshooting</title>
+<p>
+If you cannot reach the onionsite you require, make sure that you have
+entered the 16-character onion address correctly: even a small mistake
+will stop Tor Browser from being able to reach the site.
+</p>
+<p>
+If you are still unable to connect to the onionsite, please try again
+later. There may be a temporary connection issue, or the site operators
+may have allowed it to go offline without warning.
+</p>
+</section>
+</page>
