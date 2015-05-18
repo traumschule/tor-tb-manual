@@ -26,41 +26,14 @@ being developed.
   <tr>
     <td>
       <p>
-      obfs2
-      </p> 
-    </td>
-    <td>
-      <p>
-      Censors have learned how to identify obfs2 bridges. This transport 
-      is deprecated, and you should not use it.
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p>
       obfs3
       </p>
     </td>
     <td>
       <p>
-      obfs3 disguises Tor traffic as random noise. obfs3 bridges work 
-      almost everywhere, though some may have been identified and
-      blocked by censors.
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-      Scramblesuit
-      </p>
-    </td>
-    <td>
-      <p>
-      Scramblesuit is an additional tool for the obfs3 transport that
-      tries to stop censors from identifying bridges through active
-      probing.
+      obfs3 makes Tor traffic look random, so that it does not look
+      like Tor or any other protocol. obfs3 bridges will work in most
+      places.
       </p>
     </td>
   </tr>
@@ -72,26 +45,24 @@ being developed.
     </td>
     <td>
       <p>
-      obfs4 offers the same features as Scramblesuit, but uses different
-      cryptographic and authentication methods that result in improved
-      speed.
+      obfs4 makes Tor traffic look random like obfs3, and also prevents
+      censors from finding bridges by Internet scanning. obfs4 bridges
+      are less likely to be blocked than obfs3 bridges.
       </p>
     </td>
   </tr>
   <tr>
-   <td>
-    <p>
-    meek
-    </p>
-   </td>
-   <td>
-    <p>
-    Rather than using bridges, meek works by making your Tor traffic
-    seem as though it is destined for a major website that a censor
-    cannot block without disrupting a lot of other activity on the
-    network.
-    </p>
-   </td>
+    <td>
+      <p>
+      Scramblesuit
+      </p>
+    </td>
+    <td>
+      <p>
+      ScrambleSuit is similar to obfs4 but has a different set
+      of bridges.
+      </p>
+    </td>
   </tr>
   <tr>
     <td>
@@ -101,9 +72,40 @@ being developed.
     </td>
     <td>
       <p>
-      Format-Transforming Encryption disguises Tor traffic as web (HTTP) 
-      traffic or other types of internet traffic. FTE bridges are 
-      effective, but in limited supply. 
+      FTE (format-transforming encryption) disguises Tor traffic as
+      ordinary web (HTTP) traffic.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>
+      meek
+      </p>
+    </td>
+    <td>
+      <p>
+      These transports all make it look
+      like you are browsing a major web site instead of using Tor.
+      meek-amazon makes it look like you are using Amazon Web
+      Services; meek-azure makes it look like you are using a
+      Microsoft web site; and meek-google makes it look like you are
+      using Google search.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>
+      Flashproxy
+      </p>
+    </td>
+    <td>
+      <p>
+      Flashproxy is for advanced users. It sends your traffic
+      through other peoples’ web browsers. To set it up, you need to
+      read the <a href="https://trac.torproject.org/projects/tor/wiki/FlashProxyHowto">flash
+      proxy how-to</a>.
       </p>
     </td>
   </tr>

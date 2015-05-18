@@ -3,7 +3,7 @@
   id="circumvention">
 
 <info>
-  <desc>What to do if the Tor network is blocked.</desc>
+  <desc>What to do if the Tor network is blocked</desc>
   <link type="guide" xref="index" />
 </info>
 
@@ -23,19 +23,18 @@ that are currently available.
 <steps>
  <item>
   <p>
+  <media type="image" width="600" src="media/circumvention/configure.png" />
+  </p>
+  <p>
   To use pluggable transports, click "Configure" in the Tor Launcher
   window that appears when you first run Tor Browser.
   </p>
-
-  <media type="image" src="media/tor-launcher-configure_en-US.png" />
 
   <p>
   You can also configure pluggable transports while Tor Browser is
   running, by clicking on the Torbutton menu and selecting “Tor Network
   Settings”.
   </p>
-
-  <!-- XXX: insert screenshot of Torbutton menu -->
  </item>
 
  <item>
@@ -43,22 +42,34 @@ that are currently available.
   Select “yes” when asked if your Internet Service Provider blocks
   connections to the Tor network.
   </p>
-
-  <media type="image" src="media/tor-launcher-wizard_en-US.png" />
  </item>
 
  <item>
   <p>
-  Select “Connect with provided bridges”. Tor Browser currently has nine
-  pluggable transport options to choose from. If one fails to get you
-  online, try selecting a different transport.
+  <media type="image" width="600" src="media/circumvention/bridges.png" />
   </p>
-
-  <!-- XXX: Update this image -->
-  <media type="image" src="media/tor-launcher-provided-bridges_en-US.png" />
+  <p>
+  Select “Connect with provided bridges”. Tor Browser currently has nine
+  pluggable transport options to choose from. See the section below for
+  advice on which to select.
+  </p>
  </item>
 </steps>
+</section>
 
+<section id="which-to-use">
+<title>Which transport should I use?</title>
+<p>
+Each of the transports listed in Tor Launcher’s menu works in a different
+way (for more details, see the <link xref="transports">Pluggable
+Transports</link> page), and their effectiveness depends on your
+individual circumstances.
+</p>
+<p>
+If you are trying to circumvent a blocked connection for the first time,
+you should try the different transports in the following order: obfs3,
+ScrambleSuit, fte-ipv6, fte, meek-azure, meek-google, meek-amazon, obfs4.
+</p>
 <p>
 If you try all of these options, and none of them gets you online,
 you will need to enter bridge addresses manually. Read the <link 

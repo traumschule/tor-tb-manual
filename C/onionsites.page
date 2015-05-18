@@ -45,6 +45,9 @@ non-private web:
 <section id="access">
 <title>How to access an onionsite</title>
 <p>
+<media type="image" width="600" src="media/onionsites/onion_url.png" />
+</p>
+<p>
 Just like any other website, you will need to know the address of an
 onionsite in order to connect to it. An onion address is a string of
 sixteen mostly random letters and numbers, followed by “.onion”.

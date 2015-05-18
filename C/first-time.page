@@ -7,7 +7,7 @@
     <desc>Learn how to use Tor Browser for the first time</desc>
   </info>
 
-  <title>Running Tor Browser for the First Time</title>
+  <title>Running Tor Browser for the first time</title>
   
   <p>
   When you run Tor Browser for the first time, you will see the Tor
@@ -17,6 +17,9 @@
   
   <section id="connect">
     <title>Connect</title>
+    <p>
+    <media type="image" width="600" src="media/first-time/connect.png" />
+    </p>
     <p>
     In most cases, this option will allow you to connect to the Tor network
     without any further configuration. Once clicked, a status bar will
@@ -28,11 +31,14 @@
   </section>
   <section id="configure">
    <title>Configure</title>
-    <p>
-    If you know that your connection is censored, or uses a proxy, you should
-    select this option. Tor Launcher will take you through a series of
-    configuration options.
-    </p>
+   <p>
+   <media type="image" width="600" src="media/circumvention/configure.png" />
+   </p>
+   <p>
+   If you know that your connection is censored, or uses a proxy, you should
+   select this option. Tor Launcher will take you through a series of
+   configuration options.
+   </p>
    <steps>
     <item>
      <p>
@@ -51,15 +57,13 @@
      this is not necessary. You will usually know if you need to answer
      “Yes”, as the same settings will be used for other browsers on your
      system. If possible, ask your network administrator for guidance. If
-     your connection does not use a proxy, answer “No”.
+     your connection does not use a proxy, click “Connect”.
      </p>
-    </item>
-    <item>
      <p>
-     The final screen asks if your connection is behind a firewall that
-     only allows certain ports. If the answer is “Yes”, enter all the
-     allowed ports, separated by a comma but no spaces. If the answer is
-     “No”, click “Connect”.
+     <media type="image" width="600" src="media/first-time/proxy_question.png" />
+     </p>
+     <p>
+     <media type="image"  width="600" src="media/first-time/proxy.png" />
      </p>
     </item>
    </steps>

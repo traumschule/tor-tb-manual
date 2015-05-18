@@ -3,7 +3,7 @@
   id="uninstalling">
 
 <info>
-  <desc>How to remove Tor Browser from your system.</desc>
+  <desc>How to remove Tor Browser from your system</desc>
   <link type="guide" xref="index" group="#last" />
 </info>
 
@@ -21,8 +21,10 @@ Removing Tor Browser from your system is simple:
 
 <steps>
   <item>
-    <p>Locate your Tor Browser folder. The default location is your Desktop.</p>
-    <!-- is that true? -->
+    <p>
+    Locate your Tor Browser folder. The default location on Windows is the Desktop;
+    on Mac OS X it is the Applications folder.
+    </p>
   </item>
   <item>
     <p>Delete the Tor Browser folder.</p>

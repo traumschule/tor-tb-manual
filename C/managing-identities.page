@@ -7,7 +7,7 @@
   <link type="guide" xref="index" />
 </info>
 
-<title>Managing Identities</title>
+<title>Managing identities</title>
  
 <p>
 When you connect to a website, it is not only the operators
@@ -40,6 +40,14 @@ On the other hand, all connections to a single website address will be
 made over the same Tor circuit, meaning you can browse different pages
 of a single website in separate tabs or windows, without any loss of
 functionality.
+</p>
+
+<p>
+<media type="image" width="600" src="media/managing-identities/circuit_full.png" />
+</p>
+<p>
+You can see a diagram of the circuit that Tor Browser is using for the
+current tab in the onion menu.
 </p>
 </section>
 
@@ -92,10 +100,12 @@ should bear in mind:
 <section id="new-identity">
 <title>Changing identities and circuits</title>
 <p>
+<media type="image" width="600" src="media/managing-identities/new_identity.png" /> 
+</p>
+<p>
 Tor Browser features “New Identity” and “New Tor Circuit for this Site”
 options, located in the Torbutton menu.
 </p>
- 
 <terms>
  <item>
   <title>New Identity</title>
@@ -104,10 +114,9 @@ options, located in the Torbutton menu.
   activity from being linkable to what you
   were doing before. Selecting it will close all your open tabs and
   windows, clear all private information such as cookies and browsing
-  history, and use new Tor circuits for all connections. Make sure you
-  have completely finished all activity and downloads before clicking
-  “New Identity”, as you will not be able to resume them in the new
-  browser window without starting all over again.
+  history, and use new Tor circuits for all connections. Tor Browser
+  will warn you that all activity and downloads will be stopped, so
+  take this into account before clicking “New Identity”.
   </p>
  </item>
  <item>

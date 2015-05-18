@@ -3,7 +3,7 @@
   id="troubleshooting">
 
 <info>
-  <desc>What to do if Tor Browser doesn’t work.</desc>
+  <desc>What to do if Tor Browser doesn’t work</desc>
   <link type="guide" xref="index" group="#last" />
 </info>
 
@@ -15,7 +15,7 @@ after running the program, and clicking the “Connect” button if you are
 using it for the first time.
 </p>
 
-<media type="image" src="media/tor-launcher-connect_en-US.png" />
+<media type="image" width="600" src="media/first-time/connect.png" />
 
 <section id="no-connection">
 <title>Quick fixes</title>
@@ -99,21 +99,31 @@ the problem. To copy the Tor log, either:
  <item>
   <p>
   click the button labelled “Copy Tor Log To Clipboard” that appears in
-  the dialog window while Tor Browser is connecting to the network, or
+  the Tor Launcher window, or
+  </p>
+  <p>
+  <media type="image" width="600" src="media/troubleshooting/copy_tor_log1.png" />
   </p>
  </item>
  <item>
   <p>
   if Tor Browser is already open, click on the Torbutton icon (the small
-  green onion at the top left of the screen), then “Open Network
+  green onion at the top left of the screen), then “Tor Network
   Settings”, then “Copy Tor Log To Clipboard”.
+  </p>
+  <p>
+  <media type="image" width="600" src="media/troubleshooting/network_security_menu.png" />
+  </p>
+ </item>
+ <item>
+  <p>
+  You can now paste the Tor log into your support request.
+  </p>
+  <p>
+  <media type="image" width="600" src="media/troubleshooting/copy_tor_log2.png" />
   </p>
  </item>
 </list>
-<p>
-You can now paste the Tor log into your support request.
-</p>
-<!-- XXX: Include a screenshot of this -->
 </section>
 
 </page>

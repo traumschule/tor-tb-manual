@@ -20,7 +20,9 @@
   connection is encrypted, the address will begin with “https://”, rather
   than “http://”.
   </p>
-   
+  <p>
+  <media type="image" width="700" src="media/secure-connections/https.png" />
+  </p>  
   <p>
   The following visualization shows what information is visible to
   eavesdroppers with and without Tor Browser and HTTPS encryption:

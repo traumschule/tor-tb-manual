@@ -20,6 +20,9 @@ you require.
 <section id="access">
 <title>Accessing the Security Slider</title>
 <p>
+<media type="image" width="400" src="media/security-slider/slider.png" />
+</p>
+<p>
 The Security Slider is located in Torbutton’s “Privacy and Security
 Settings” menu.
 </p>
@@ -28,25 +31,22 @@ Settings” menu.
 <section id="levels">
 <title>Security Levels</title>
 <p>
+<media type="image" width="600" src="media/security-slider/slider_window.png" />
+</p>
+<p>
 Increasing the level of the Security Slider will disable or partially
 disable certain browser features to protect against possible attacks.
 </p>
-
 <terms>
  <item>
-  <title>Low</title>
-  <p>
-  At this level, all browser features are enabled. This is the most
-  usable option.
-  </p>
- </item>
- <item>
-  <title>Medium-Low</title>
+  <title>High</title>
   <p>
   At this level, HTML5 video and audio media become click-to-play via
-  NoScript; some <link xref='plugins'>JavaScript</link> performance
-  optimizations are disabled, causing some websites to run more slowly;
-  and some mathematical equations may not display properly.
+  NoScript; all JavaScript performance optimizations are disabled; some
+  mathematical equations may not display properly; some font rendering
+  features are disabled; some types of image are disabled; Javascript
+  is disabled by default on all sites; most video and audio formats are
+  disabled; and some fonts and icons may not display correctly.
   </p>
  </item>
  <item>
@@ -61,14 +61,19 @@ disable certain browser features to protect against possible attacks.
   </p>
  </item>
  <item>
-  <title>High</title>
+  <title>Medium-Low</title>
   <p>
   At this level, HTML5 video and audio media become click-to-play via
-  NoScript; all JavaScript performance optimizations are disabled; some
-  mathematical equations may not display properly; some font rendering
-  features are disabled; some types of image are disabled; Javascript
-  is disabled by default on all sites; most video and audio formats are
-  disabled; and some fonts and icons may not display correctly.
+  NoScript; some <link xref='plugins'>JavaScript</link> performance
+  optimizations are disabled, causing some websites to run more slowly;
+  and some mathematical equations may not display properly.
+  </p>
+ </item>
+ <item>
+  <title>Low</title>
+  <p>
+  At this level, all browser features are enabled. This is the most
+  usable option.
   </p>
  </item>
 </terms>
