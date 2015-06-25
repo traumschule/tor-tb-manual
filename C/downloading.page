@@ -1,0 +1,131 @@
+<page xmlns="http://projectmallard.org/1.0/"
+  type="topic"
+  id="downloading">
+
+<info>
+  <desc>How to download Tor Browser</desc>
+  <link type="guide" xref="index" />
+</info>
+
+<title>Downloading</title>
+
+<p>
+The safest and simplest way to download Tor Browser is from the official
+Tor Project website at https://www.torproject.org. Your connection to
+the site will be secured using
+<link xref='secure-connections'>HTTPS</link>, so you can be sure that no
+one is tampering with your copy of the software while you download it.
+</p>
+
+<p>
+However, there may be times when you cannot access the Tor Project
+website: for example, it could be blocked on your network. If this
+happens, you can use one of the alternative download methods listed
+below.
+</p>
+
+<section id="satori">
+<title>Satori</title>
+ <p>
+ Satori is an add-on for the Chrome or Chromium browsers that allows you
+ to download several security and privacy programs from different
+ sources.
+ </p>
+ <p>
+ To download Tor Browser using Satori:
+ </p>
+ <steps>
+  <item>
+  <p>
+  Install Satori from the Chrome App Store.
+  </p>
+  </item>
+  <item>
+  <p>
+  Select Satori from your browser’s Apps menu.
+  </p>
+  </item>
+  <item>
+  <p>
+  When Satori opens, click on your preferred language. A menu will open
+  listing the available downloads for that language. Find the entry for
+  Tor Browser under the name of your operating system. Select
+  either “A” or “B” after the name of the program — each one represents
+  a different source from which to get the software. Your download will
+  then begin.
+  </p>
+  </item>
+  <item>
+  <p>
+  Wait for your download to finish, then find the “Generate Hash”
+  section in Satori’s menu and click “Select Files”.
+  </p>
+  </item>
+  <item>
+  <p>
+  Select the downloaded Tor Browser file. Satori will display the
+  checksum of the file, which you should compare with the software’s
+  original checksum: you can find this by clicking the word “checksum”
+  after the link you clicked on to start the download. If the checksums
+  match, your download was successful, and you can
+  <link xref='first-time'>begin using Tor Browser</link>. If they do not
+  match, you may need to try downloading again, or from a different
+  source.
+  </p>
+  </item>
+ </steps>
+</section>
+
+<section id="gettor">
+<title>GetTor</title>
+ <p>
+ GetTor is an email-based service that automatically responds to
+ messages with links to the latest version of Tor Browser, hosted at a
+ variety of locations, such as Dropbox.
+ </p>
+ 
+ <p>
+ To use GetTor:
+ </p>
+ <steps>
+  <item>
+  <p>
+  Send an email to gettor@torproject.org, and in the body
+  of the message simply write “windows”, “osx”, or “linux”, (without
+  quotation marks) depending on your operating system.
+  </p>
+  </item>
+  <item>
+  <p>
+  GetTor will respond with an email containing links from which you can
+  download the Tor Browser package, the cryptographic signature (needed
+  for verifying the download), the fingerprint of the key used to make
+  the signature, and the package’s checksum. You may be offered a choice
+  of “32-bit” or “64-bit” software: this depends on the model of the
+  computer you are using.
+  </p>
+  </item>
+ </steps>
+</section>
+
+<section id="website-mirror">
+<title>Tor website mirrors</title>
+ <p>
+ A number of volunteers around the world host “mirrors” of the Tor
+ Project website. These are identical copies of all the content and
+ software on the main website, hosted at different IP addresses and
+ URLs. The Tor Project periodically checks mirrored versions of the
+ software to make sure they are the same as the originals.
+ </p>
+ 
+ <p>
+ If the main Tor website is blocked for you, and the automated
+ distribution methods above do not work, send an email to
+ help@rt.torproject.org asking for some website mirror addresses. You
+ should then be able to download Tor Browser as normal from these sites.
+ Please note that you should take extra care to verify the software you
+ download from a mirror, to ensure that it has not been tampered with.
+ </p>
+</section>
+
+</page>

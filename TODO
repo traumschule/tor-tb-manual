@@ -1,0 +1,55 @@
+==========
+SHORT TERM
+==========
+
+ADDITIONAL SCREENSHOTS
+
+Produce screenshots illustrating the download methods in the “How to
+download” section (Satori, GetTor, mirrors).
+
+SECTIONS TO ADD/EXPAND/MODIFY
+
+Add a section that explains how to verify the Tor Browser download in
+clear and simple steps.
+
+Expand “Using for the first time” section with guidance on
+extracting/“installing” Tor Browser, and locating it in the filesystem
+on each OS. Cover the need to move TB to OSX Applications folder (and
+not run from disk image). Take into account the change in Mac OSX
+installation once a developer cert is available (ETA: August 2015)
+
+Modify “Bridges” page if/when we have a domain-fronted API to
+autodiscover fresh bridges (ETA: December 2015)
+
+[XXX Add more here XXX]
+
+===========
+MEDIUM TERM
+===========
+
+LOCALIZATION
+
+Plan for the localization of the manual’s text into the set of languages
+for which Tor Browser is currently built; this could be done through
+crowdsourced translation (on Transifex) or by individual translators.
+
+DISTRIBUTION
+
+Work out distribution strategies for the manual. An online copy will be
+available, and could be promoted through Tor’s outreach channels and
+linked to from the website. GetTor could provide links to the manual
+or to a downloadable file. A file could be included in the Tor Browser
+download (see discussion on #11698).
+
+MAINTAINABILITY
+
+Develop a clear plan for updating the manual text as Tor Browser
+evolves. This will involve incorporating user
+feedback/frequently-encountered issues from the help desk assistants,
+and making sure that information about major user interface changes is
+obtained from the Tor Browser team in good time.
+
+OTHER SOFTWARE PRODUCTS
+
+Continue discussion with other software development teams who might
+require user documentation for their products (e.g. Tor Messenger)
