@@ -68,7 +68,7 @@ individual circumstances.
 <p>
 If you are trying to circumvent a blocked connection for the first time,
 you should try the different transports in the following order: obfs3,
-ScrambleSuit, fte-ipv6, fte, meek-azure, meek-google, meek-amazon, obfs4.
+obfs4, ScrambleSuit, fte-ipv6, fte, meek-azure, meek-google, meek-amazon.
 </p>
 <p>
 If you try all of these options, and none of them gets you online,
