@@ -55,14 +55,17 @@
     To run Tor Browser on Ubuntu, users need to execute a shell script. Open 
     "Files" (Unity's explorer), open Preferences &#8594; Behavior Tab &#8594; 
     Set "Run executable text files when they are opened" to "Ask every time", 
-    then OK. Tor Browser can also be started from the command line by running
+    then click OK. 
+    </p>
+  </item>
+  <item>
+    <p>
+     Tor Browser can also be started from the command line by running the
+    following command from inside the Tor Browser directory:
     </p>
     <code>
     ./start-tor-browser.desktop
     </code>
-    <p>
-    from inside the Tor Browser directory.
-    </p>
   </item>
 </list>
 </page>
