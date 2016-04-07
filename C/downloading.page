@@ -79,13 +79,13 @@ below.
 <section id="gettor">
 <title>GetTor</title>
  <p>
- GetTor is an email-based service that automatically responds to
- messages with links to the latest version of Tor Browser, hosted at a
- variety of locations, such as Dropbox.
+ GetTor is a service that automatically responds to messages with links
+ to the latest version of Tor Browser, hosted at a  variety of locations,
+ such as Dropbox, Google Drive and Github..
  </p>
- 
+
  <p>
- To use GetTor:
+ To use GetTor via email:
  </p>
  <steps>
   <item>
@@ -106,6 +106,31 @@ below.
   </p>
   </item>
  </steps>
+
+ <p>
+ To use GetTor via Twitter:
+ </p>
+ <steps>
+  <item>
+  <p>
+  To get links for downloading Tor Browser in English for OS X, send a Direct
+  Message to @get_tor with the word "osx en" in it (you don't need to follow the
+  account).
+  </p>
+  </item>
+ </steps>
+
+ <p>
+ To use GetTor via XMPP:
+ </p>
+ <steps>
+  <item>
+  <p>
+  To get links for downloading Tor Browser in Chinese for Linux, send a
+  message to get_tor@riseup.net with the words "linux zh" in it.
+  </p>
+  </item>
+ </steps>
 </section>
 
 <section id="website-mirror">
@@ -117,7 +142,7 @@ below.
  URLs. The Tor Project periodically checks mirrored versions of the
  software to make sure they are the same as the originals.
  </p>
- 
+
  <p>
  If the main Tor website is blocked for you, and the automated
  distribution methods above do not work, send an email to
