@@ -58,7 +58,7 @@
     then OK. Tor Browser can also be started from the command line by running
     </p>
     <code>
-    ./start-tor-browser
+    ./start-tor-browser.desktop
     </code>
     <p>
     from inside the Tor Browser directory.
