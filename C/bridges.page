@@ -19,7 +19,7 @@
 </p>
 
 <p>
-Other pluggable transports, like meek and Flashproxy, use different
+Other pluggable transports, like meek, use different
 anti-censorship techniques that do not rely on bridges. You do not need
 to obtain bridge addresses in order to use these transports.
 </p>
