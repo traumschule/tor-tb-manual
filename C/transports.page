@@ -94,21 +94,6 @@ being developed.
       </p>
     </td>
   </tr>
-  <tr>
-    <td>
-      <p>
-      Flashproxy
-      </p>
-    </td>
-    <td>
-      <p>
-      Flashproxy is for advanced users. It sends your traffic
-      through other peoples’ web browsers. To set it up, you need to
-      read the <a href="https://trac.torproject.org/projects/tor/wiki/FlashProxyHowto">flash
-      proxy how-to</a>.
-      </p>
-    </td>
-  </tr>
 </table>
 </section>
 </page>
