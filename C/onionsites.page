@@ -3,7 +3,7 @@
   id="onion-services">
 
 <info>
-  <desc>Services hosted in the Tor network</desc>
+  <desc>Services that are only accessible using Tor</desc>
   <link type="guide" xref="index" />
 </info>
 
