@@ -3,11 +3,11 @@
   id="plugins">
 
 <info>
-  <desc>How Tor Browser handles browser plugins and add-ons</desc>
+  <desc>How Tor Browser handles add-ons, plugins and JavasScript</desc>
   <link type="guide" xref="index" group="#last" />
 </info>
 
-<title>Flash, JavaScript, and other add-ons</title>
+<title>Plugins, add-ons and JavasSript</title>
 
 <section id="flash">
 <title>Flash Player</title>
