@@ -9,7 +9,7 @@
 
 <title>Onion Services</title>
 <p>
-Onion services (also known as “hidden services”) are services (like websites) 
+Onion services (also known as “hidden services”) are services (like websites)
 that are only accessible through the Tor network.
 </p>
 
@@ -65,6 +65,11 @@ will stop Tor Browser from being able to reach the site.
 If you are still unable to connect to the onion service, please try again
 later. There may be a temporary connection issue, or the site operators
 may have allowed it to go offline without warning.
+</p>
+<p>
+You can also ensure that you're able to access other onion services by
+connecting to <link href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion
+Service</link>
 </p>
 </section>
 </page>
