@@ -72,8 +72,9 @@ can update either automatically or manually.
  </item>
  <item>
   <p>
-  Visit https://www.torproject.org and download a copy of the latest Tor
-  Browser release, then install it as before.
+  Visit <link href="https://www.torproject.org/projects/torbrowser.html.en">
+  https://www.torproject.org/projects/torbrowser.html.en</link> and download 
+  a copy of the latest Tor Browser release, then install it as before.
   </p>
  </item>
 </steps>
