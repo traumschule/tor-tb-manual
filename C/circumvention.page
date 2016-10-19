@@ -49,7 +49,7 @@ that are currently available.
   <media type="image" width="600" src="media/circumvention/bridges.png" />
   </p>
   <p>
-  Select “Connect with provided bridges”. Tor Browser currently has nine
+  Select “Connect with provided bridges”. Tor Browser currently has six
   pluggable transport options to choose from. See the section below for
   advice on which to select.
   </p>
