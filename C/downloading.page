@@ -12,7 +12,7 @@
 <p>
 The safest and simplest way to download Tor Browser is from the official
 Tor Project website at https://www.torproject.org. Your connection to
-the site will be secured using<link xref='secure-connections'>HTTPS</link>,
+the site will be secured using <link xref='secure-connections'>HTTPS</link>,
 which makes it much harder for somebody to tamper with.
 </p>
 
