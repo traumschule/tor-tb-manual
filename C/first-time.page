@@ -11,7 +11,7 @@
   
   <p>
   When you run Tor Browser for the first time, you will see the Tor
-  Launcher window. This offers you the option to connect directly to the
+  Network Settings window. This offers you the option to connect directly to the
   Tor network, or to configure Tor Browser for your connection.
   </p>
   
@@ -21,7 +21,7 @@
     <media type="image" width="600" src="media/first-time/connect.png" />
     </p>
     <p>
-    In most cases, this option will allow you to connect to the Tor network
+    In most cases, choosing "Connect" will allow you to connect to the Tor network
     without any further configuration. Once clicked, a status bar will
     appear, showing Tor’s connection progress. If you are on a relatively
     fast connection, but this bar seems to get stuck at a certain point,
@@ -36,7 +36,7 @@
    </p>
    <p>
    If you know that your connection is censored, or uses a proxy, you should
-   select this option. Tor Launcher will take you through a series of
+   select this option. Tor Browser will take you through a series of
    configuration options.
    </p>
    <steps>
@@ -57,7 +57,7 @@
      this is not necessary. You will usually know if you need to answer
      “Yes”, as the same settings will be used for other browsers on your
      system. If possible, ask your network administrator for guidance. If
-     your connection does not use a proxy, click “Connect”.
+     your connection does not use a proxy, click “Continue”.
      </p>
      <p>
      <media type="image" width="600" src="media/first-time/proxy_question.png" />
