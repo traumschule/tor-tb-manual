@@ -28,7 +28,7 @@ to obtain bridge addresses in order to use these transports.
  <title>Getting bridge addresses</title>
  <p>
  Because bridge addresses are not public, you will need to request them
- yourself. You have three options:
+ yourself. You have two options:
  </p>
 
 <list>
@@ -42,12 +42,6 @@ to obtain bridge addresses in order to use these transports.
     <p>
     Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email
     address, or
-    </p>
-  </item>
-  <item>
-    <p>
-    Politely ask a human at help@rt.torproject.org if neither of the first
-    two methods works for you.
     </p>
   </item>
 </list>
