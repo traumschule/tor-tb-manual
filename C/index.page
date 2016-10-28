@@ -4,7 +4,7 @@
       type="guide"
       id="index">
   <title>Tor Browser User Manual</title>
-  <p its:locNote="&lt;span/&gt; will be replaced by current Tor Browser version">
+<!--  <p its:locNote="&lt;span/&gt; will be replaced by current Tor Browser version">
     Version:
     <span its:translate="no"
      ><xi:include href="tor-browser-version.xml" parse="xml" xpointer="xpointer(//text()))">
@@ -12,4 +12,5 @@
       </xi:include>
     </span>
   </p>
+-->
 </page>
