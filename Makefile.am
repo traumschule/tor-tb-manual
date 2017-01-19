@@ -24,9 +24,7 @@ html: all media-symlinks.stamp
 			for ttf in $$lc/media/*.ttf; do \
 				cp --preserve=timestamps $$ttf html/$$lc/media; \
 			done; \
-		done; \
-	mkdir html/windows/
-	cp -R html/en-US html/windows/en-US
+		done
 
 .PHONY: pdf
 pdf: all media-symlinks.stamp
