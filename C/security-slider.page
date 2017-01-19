@@ -23,7 +23,7 @@ you require.
 <media type="image" width="400" src="media/security-slider/slider.png" />
 </p>
 <p>
-The Security Slider is located in Torbutton’s “Privacy and Security
+The Security Slider is located in Torbutton’s “Security
 Settings” menu.
 </p>
 </section>
@@ -50,7 +50,7 @@ disable certain browser features to protect against possible attacks.
   </p>
  </item>
  <item>
-  <title>Medium-High</title>
+  <title>Medium</title>
   <p>
   At this level, HTML5 video and audio media become click-to-play via
   NoScript; all JavaScript performance optimizations are disabled; some
@@ -58,15 +58,6 @@ disable certain browser features to protect against possible attacks.
   features are disabled; some types of image are disabled; and
   JavaScript is disabled by default on all non-<link
   xref='secure-connections'>HTTPS</link> sites.
-  </p>
- </item>
- <item>
-  <title>Medium-Low</title>
-  <p>
-  At this level, HTML5 video and audio media become click-to-play via
-  NoScript; some <link xref='plugins'>JavaScript</link> performance
-  optimizations are disabled, causing some websites to run more slowly;
-  and some mathematical equations may not display properly.
   </p>
  </item>
  <item>
