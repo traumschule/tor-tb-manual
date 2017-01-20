@@ -3,7 +3,7 @@
       id="about-tor-browser">
 
   <info>
-    <link type="guide" xref="index" group="#first"/>
+    <link type="guide" xref="index" group="one" />
     <desc>Learn what Tor Browser can do to protect your privacy and anonymity</desc>
   </info>
 

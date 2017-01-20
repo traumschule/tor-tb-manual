@@ -4,7 +4,7 @@
 
 <info>
   <desc>How to update Tor Browser</desc>
-  <link type="guide" xref="index" />
+  <link type="guide" xref="index" group="nine" />
 </info>
 
 <title>Updating</title>

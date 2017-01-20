@@ -6,7 +6,7 @@
 
   <info>
     <desc>Learn how to protect your data using Tor Browser and HTTPS</desc>
-    <link type="guide" xref="index" />
+    <link type="guide" xref="index" group="seven" />
   </info>
 
   <title>Secure Connections</title>

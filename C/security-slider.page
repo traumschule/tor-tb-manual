@@ -4,7 +4,7 @@
 
 <info>
   <desc>Configuring Tor Browser for security and usability</desc>
-  <link type="guide" xref="index" />
+  <link type="guide" xref="index" group="eight" />
 </info>
 
 <title>Security Slider</title>

@@ -3,7 +3,7 @@
   id="downloading">
 
 <info>
-  <link type="guide" xref="index" group="#first" />
+  <link type="guide" xref="index" group="two" />
   <desc>How to download Tor Browser</desc>
 </info>
 

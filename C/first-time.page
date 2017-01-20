@@ -3,7 +3,7 @@
       id="first-time">
 
   <info>
-    <link type="guide" xref="index" group="#first" />
+    <link type="guide" xref="index" group="three" />
     <desc>Learn how to use Tor Browser for the first time</desc>
   </info>
 

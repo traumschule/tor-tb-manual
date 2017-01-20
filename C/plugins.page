@@ -4,7 +4,7 @@
 
 <info>
   <desc>How Tor Browser handles add-ons, plugins and JavaScript</desc>
-  <link type="guide" xref="index" group="#last" />
+  <link type="guide" xref="index" group="ten" />
 </info>
 
 <title>Plugins, add-ons and JavaScript</title>

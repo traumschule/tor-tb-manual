@@ -4,7 +4,7 @@
 
 <info>
   <desc>Learn how to control personally-identifying information in Tor Browser</desc>
-  <link type="guide" xref="index" />
+  <link type="guide" xref="index" group="five" />
 </info>
 
 <title>Managing identities</title>

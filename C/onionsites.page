@@ -4,7 +4,7 @@
 
 <info>
   <desc>Services that are only accessible using Tor</desc>
-  <link type="guide" xref="index" />
+  <link type="guide" xref="index" group="six" />
 </info>
 
 <title>Onion Services</title>

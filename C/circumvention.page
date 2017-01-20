@@ -4,7 +4,7 @@
 
 <info>
   <desc>What to do if the Tor network is blocked</desc>
-  <link type="guide" xref="index" />
+  <link type="guide" xref="index" group="four"/>
 </info>
 
 <title>Circumvention</title>
