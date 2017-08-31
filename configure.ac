@@ -8,7 +8,7 @@ AC_ARG_WITH(tor-browser-bundle,
             AC_HELP_STRING([--with-tor-browser-bundle=PROGRAM],
                            [location of the clone of tor-browser-bundle.git]),
             [tor_browser_bundle_dir=$withval])
-GET_TB_VERSION="${tor_browser_bundle_dir}/gitian/get-tb-version"
+GET_TB_VERSION="${tor_browser_bundle_dir}/gitian/get-tb-version alpha"
 if ! test -x "$GET_TB_VERSION"; then
     AC_MSG_ERROR([Please clone tor-browser-bundle.git and specify its location using --with-tor-browser-bundle])
 fi
