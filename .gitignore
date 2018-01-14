@@ -24,3 +24,4 @@
 /config.status
 /install-sh
 /missing
+.DS_Store
