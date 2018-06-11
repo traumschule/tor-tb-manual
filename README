@@ -21,6 +21,10 @@ Build:
     ./configure
     make html
 
+Generating the .POT file for localization
+-----------------------------------------
+xml2po -o tor-browser-user-manual.pot -m mallard ./C/*.page
+
 Ressources
 ----------
 
