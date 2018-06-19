@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-12-06 16:36-0600\n"
+"POT-Creation-Date: 2018-06-19 15:30-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -113,7 +113,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: bridges.page:63
 msgctxt "_"
-msgid "external ref='media/tor-launcher-custom-bridges_en-US.png' md5='93365c2aa3fb4d627497e83f28a39b7e'"
+msgid "external ref='media/tor-launcher-custom-bridges.png' md5='34b5e99516d297fcbb467209d8479f40'"
 msgstr ""
 
 #: bridges.page:65
@@ -143,7 +143,7 @@ msgstr ""
 #: circumvention.page:26
 #: first-time.page:35
 msgctxt "_"
-msgid "external ref='media/circumvention/configure.png' md5='519d888303eadfe4cb03f178aedd90f5'"
+msgid "external ref='media/circumvention/configure.png' md5='1107595d21fe90f2aab1263d7fb0abd3'"
 msgstr ""
 
 #: circumvention.page:28
@@ -164,7 +164,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: circumvention.page:49
 msgctxt "_"
-msgid "external ref='media/circumvention/bridges.png' md5='910cdd5e45860b81a1ad4739c589a195'"
+msgid "external ref='media/circumvention/bridges.png' md5='f5acc05bd9bacf6c69a31163d25a8778'"
 msgstr ""
 
 #: circumvention.page:51
@@ -208,7 +208,7 @@ msgid "GetTor"
 msgstr ""
 
 #: downloading.page:28
-msgid "GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and Github.."
+msgid "GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.."
 msgstr ""
 
 #: downloading.page:34
@@ -294,7 +294,7 @@ msgstr ""
 #: first-time.page:21
 #: troubleshooting.page:18
 msgctxt "_"
-msgid "external ref='media/first-time/connect.png' md5='9d07068f751a3bfd274365a4ba8d90ca'"
+msgid "external ref='media/first-time/connect.png' md5='f6de80de01c8fa2a8f80857eb8213768'"
 msgstr ""
 
 #: first-time.page:23
@@ -323,7 +323,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: first-time.page:63
 msgctxt "_"
-msgid "external ref='media/first-time/proxy_question.png' md5='30853b3e86cfd386bbc32e5b8b45a378'"
+msgid "external ref='media/first-time/proxy_question.png' md5='f72753a963e3449129718e3d824a8ac8'"
 msgstr ""
 
 #. This is a reference to an external file such as an image or video. When
@@ -332,10 +332,10 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: first-time.page:66
 msgctxt "_"
-msgid "external ref='media/first-time/proxy.png' md5='13f21a351cd0aa1cf11aada690f3dc90'"
+msgid "external ref='media/first-time/proxy.png' md5='9a5cf5c044b1dfc5f006a9d1ff77507b'"
 msgstr ""
 
-#: index.page:6
+#: index.page:8
 msgid "Tor Browser User Manual"
 msgstr ""
 
@@ -703,11 +703,11 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: security-slider.page:23
 msgctxt "_"
-msgid "external ref='media/security-slider/slider.png' md5='3c469cd3ed9f60ebb6bbbc63daa90082'"
+msgid "external ref='media/security-slider/slider.png' md5='026da7c021ba5b85caf04bbf45530667'"
 msgstr ""
 
 #: security-slider.page:25
-msgid "The Security Slider is located in Torbutton’s “Privacy and Security Settings” menu."
+msgid "The Security Slider is located in Torbutton’s “Security Settings” menu."
 msgstr ""
 
 #: security-slider.page:32
@@ -720,7 +720,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: security-slider.page:34
 msgctxt "_"
-msgid "external ref='media/security-slider/slider_window.png' md5='c733bdccd1731ed1a772777b25bae7a1'"
+msgid "external ref='media/security-slider/slider_window.png' md5='b544042427621246c7d1025d478235c3'"
 msgstr ""
 
 #: security-slider.page:36
@@ -736,7 +736,7 @@ msgid "At this level, HTML5 video and audio media become click-to-play via NoScr
 msgstr ""
 
 #: security-slider.page:53
-msgid "Medium-High"
+msgid "Medium"
 msgstr ""
 
 #: security-slider.page:54
@@ -744,18 +744,10 @@ msgid "At this level, HTML5 video and audio media become click-to-play via NoScr
 msgstr ""
 
 #: security-slider.page:64
-msgid "Medium-Low"
-msgstr ""
-
-#: security-slider.page:65
-msgid "At this level, HTML5 video and audio media become click-to-play via NoScript; some <link xref=\"plugins\">JavaScript</link> performance optimizations are disabled, causing some websites to run more slowly; and some mathematical equations may not display properly."
-msgstr ""
-
-#: security-slider.page:73
 msgid "Low"
 msgstr ""
 
-#: security-slider.page:74
+#: security-slider.page:65
 msgid "At this level, all browser features are enabled. This is the most usable option."
 msgstr ""
 
@@ -939,7 +931,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: updating.page:39
 msgctxt "_"
-msgid "external ref='media/updating/update3.png' md5='4bd08622b0cacf20b13f75c432176ed3'"
+msgid "external ref='media/updating/update3.png' md5='19b1f46d748dbcd9250883044165d218'"
 msgstr ""
 
 #: updating.page:41
@@ -952,7 +944,7 @@ msgstr ""
 #. whatever you like once you have updated your copy of the file.
 #: updating.page:48
 msgctxt "_"
-msgid "external ref='media/updating/update4.png' md5='1d795e7b695738531db9d4b2b0fb5313'"
+msgid "external ref='media/updating/update4.png' md5='7e8ead67c03597f00c580c77c3103fbb'"
 msgstr ""
 
 #: updating.page:50
