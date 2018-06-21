@@ -23,7 +23,11 @@ Build:
 
 Generating the .POT file for localization
 -----------------------------------------
-xml2po -o tor-browser-user-manual.pot -m mallard ./C/*.page
+Generate .pot file from .page files:
+(From the C/ directory) itstool -o ../tor-browser-manual.pot *.page
+
+Remove the itstool spam from .pot file:
+(From the base directory) sed -i '/itstool/d' tor-browser-manual.pot
 
 Ressources
 ----------
