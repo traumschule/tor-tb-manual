@@ -29,7 +29,7 @@ Generate .pot file from .page files:
 Remove the itstool spam from .pot file:
 (From the base directory) sed -i '/itstool/d' tor-browser-manual.pot
 
-Ressources
+Resources
 ----------
 
 Mallard cheat sheet:
