@@ -32,8 +32,9 @@ being developed.
     <td>
       <p>
       obfs3 makes Tor traffic look random, so that it does not look
-      like Tor or any other protocol. obfs3 bridges will work in most
-      places.
+      like Tor or any other protocol. While still included by default, 
+      it is reccomended to use obfs4 instead, as it has several security
+      improvements over obfs3.
       </p>
     </td>
   </tr>
@@ -91,6 +92,19 @@ being developed.
       Services; meek-azure makes it look like you are using a
       Microsoft web site; and meek-google makes it look like you are
       using Google search.
+      </p>
+    </td>
+  </tr>
+     <tr>
+    <td>
+      <p>
+      Snowflake
+      </p>
+    </td>
+    <td>
+      <p>
+      Snowflake is an improvement upon Flashproxy. It sends your traffic 
+      through WebRTC, a peer-to-peer protocol with built-in NAT punching.
       </p>
     </td>
   </tr>
