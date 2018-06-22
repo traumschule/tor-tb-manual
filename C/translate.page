@@ -23,8 +23,7 @@ Below is an outline of how to sign up and begin.
  <item>
   <p>
   Head over to the 
-  <link type="seealso" xref="https://transifex.com/signup/">Transifex
-  signup page</link>.
+  <link href="https://transifex.com/signup/">Transifex signup page</link>.
   </p>
  </item>
  <item>
@@ -58,7 +57,7 @@ Below is an outline of how to sign up and begin.
  <item>
   <p>
   You are now signed up! Go to the 
-  <link type="seealso" xref="https://www.transifex.com/otf/torproject/">Tor Transifex page</link>.
+  <link href="https://www.transifex.com/otf/torproject/">Tor Transifex page</link>.
   </p>
  </item>
  <item>
@@ -87,7 +86,8 @@ Below is an outline of how to sign up and begin.
  </item>
 </steps>
   <p>After your membership is approved you can begin translating; simply navigate back to the 
-  Tor Transifex page when you are ready to begin. Thanks for your interest in helping the
+  <link href="https://www.transifex.com/otf/torproject/">Tor Transifex page</link> 
+  when you are ready to begin. Thanks for your interest in helping the
   project!
   </p>
 </section>
