@@ -39,7 +39,7 @@ disable certain browser features to protect against possible attacks.
 </p>
 <terms>
  <item>
-  <title>High</title>
+  <title>Safest</title>
   <p>
   At this level, HTML5 video and audio media become click-to-play via
   NoScript; all JavaScript performance optimizations are disabled; some
@@ -50,7 +50,7 @@ disable certain browser features to protect against possible attacks.
   </p>
  </item>
  <item>
-  <title>Medium</title>
+  <title>Safer</title>
   <p>
   At this level, HTML5 video and audio media become click-to-play via
   NoScript; all JavaScript performance optimizations are disabled; some
@@ -61,7 +61,7 @@ disable certain browser features to protect against possible attacks.
   </p>
  </item>
  <item>
-  <title>Low</title>
+  <title>Standard</title>
   <p>
   At this level, all browser features are enabled. This is the most
   usable option.
