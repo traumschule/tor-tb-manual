@@ -67,7 +67,7 @@ individual circumstances.
 <p>
 If you are trying to circumvent a blocked connection for the first time,
 you should try the different transports: obfs3, obfs4, ScrambleSuit, fte,
-meek-azure, meek-amazon.
+meek-azure and Snowflake.
 </p>
 <p>
 If you try all of these options, and none of them gets you online,

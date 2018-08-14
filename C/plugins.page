@@ -38,8 +38,9 @@ security of the browser, which might lead to deanonymization.
 
 <p>
 Tor Browser includes an add-on called NoScript, accessed through the
-“S” icon at the top-left of the window, which allows you to control the
-JavaScript that runs on individual web pages, or to block it entirely.
+“S” icon at the top-left of the window. NoScript allows you to control the
+JavaScript (and other scripts) that runs on individual web pages, or 
+block it entirely.
 </p>
 <p>
 <media type="image" width="400" src="media/plugins/noscript_menu.png" />

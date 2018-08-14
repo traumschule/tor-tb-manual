@@ -50,7 +50,7 @@ non-private web:
 <p>
 Just like any other website, you will need to know the address of an
 onion service in order to connect to it. An onion address is a string of
-sixteen mostly random letters and numbers, followed by “.onion”.
+16 (and in V3 format, 56) mostly random letters and numbers, followed by “.onion”.
 </p>
 </section>
 
@@ -58,7 +58,7 @@ sixteen mostly random letters and numbers, followed by “.onion”.
 <title>Troubleshooting</title>
 <p>
 If you cannot reach the onion service you require, make sure that you have
-entered the 16-character onion address correctly: even a small mistake
+entered the onion address correctly: even a small mistake
 will stop Tor Browser from being able to reach the site.
 </p>
 <p>

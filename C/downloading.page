@@ -28,7 +28,7 @@ below.
  <p>
  GetTor is a service that automatically responds to messages with links
  to the latest version of Tor Browser, hosted at a  variety of locations,
- such as Dropbox, Google Drive and Github..
+ such as Dropbox, Google Drive and GitHub.
  </p>
 
  <p>
@@ -68,7 +68,7 @@ below.
  </steps>
 
  <p>
- To use GetTor via Jabber/XMPP (Tor Messenger, Jitsi, CoyIM):
+ To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
  </p>
  <steps>
   <item>
