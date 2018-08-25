@@ -12,27 +12,45 @@
 <p>
 Tor Browser does not affect any of the existing software or settings on
 your computer. Uninstalling Tor Browser will not affect your system’s
-software or settings.  
-</p>
-
-<p>
-Removing Tor Browser from your system is simple:
+software or settings.
 </p>
 
 <steps>
   <item>
     <p>
-    Locate your Tor Browser folder. The default location on Windows is the Desktop;
-    on Mac OS X it is the Applications folder. On Linux, there is no default location,
-    however the folder will be named "tor-browser_en-US" if you are running the English
-    Tor Browser.
+    Locate your Tor Browser folder. The default location on Windows is the
+    Desktop. On Linux, there is no default location, however the folder will
+    be named "tor-browser_en-US" if you installed the English Tor Browser.
     </p>
   </item>
   <item>
-    <p>Delete the Tor Browser folder.</p>
+    <p>
+    Optional: If you registered Tor as an application, now is the time to
+    unregister it. It provides a commandline option for that:
+    <pre>~/Browser/start-tor-browser --unregister-app</pre>.
+    </p>
   </item>
   <item>
-    <p>Empty your Trash</p>
+    <p>
+    On Windows and Linux, Tor Browser does not install itself in the classic
+    sense of applications. You can just delete it.
+    </p>
+  </item>
+  <item>
+    <p>
+    On macOS, you drag the Tor Browser application icon from the "Applications"
+    folder to the trash as you would to uninstall any other application.
+    Now delete the directory, which contains the Tor Browser profile.
+    If the Tor Browser application is in the Applications folder, the directory
+    to remove is <code>~/Library/Application Support/TorBrowser-Data</code>.
+    To get to it, press cmd-shift-g while in Finder and copy/paste that
+    directory into the box that appears
+    (In case you remapped the keyboard shortcuts and no box appears,
+    find the folder in your finder and delete it.)
+    </p>
+  </item>    
+  <item>
+    <p>Empty your Trash and it is removed from your system.</p>
   </item>
 </steps>
 
