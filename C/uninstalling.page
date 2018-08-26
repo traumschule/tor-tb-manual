@@ -18,13 +18,18 @@ software or settings.
 <steps>
   <item>
     <p>
-    Locate your Tor Browser folder. The default location on Windows is the
-    Desktop. On Linux, there is no default location, however the folder will
-    be named "tor-browser_en-US" if you installed the English Tor Browser.
+     First locate your Tor Browser folder.
     </p>
   </item>
   <item>
     <p>
+     The default location on <b>Windows</b> is the Desktop.
+    </p>
+  </item>
+  <item>
+    <p>
+    On <b>Linux</b>, there is no default location, however the folder will
+    be named "tor-browser_en-US" if you installed the English Tor Browser.<br/>
     Optional: If you registered Tor as an application, now is the time to
     unregister it. It provides a commandline option for that:
     <pre>~/Browser/start-tor-browser --unregister-app</pre>.
@@ -32,21 +37,20 @@ software or settings.
   </item>
   <item>
     <p>
-    On Windows and Linux, Tor Browser does not install itself in the classic
-    sense of applications. You can just delete it.
+    Tor Browser does not install itself in the classical sense of applications.
+    You can just delete it.
     </p>
   </item>
   <item>
     <p>
-    On macOS, you drag the Tor Browser application icon from the "Applications"
+    On <b>macOS</b> drag the Tor Browser application icon from the "Applications"
     folder to the trash as you would to uninstall any other application.
-    Now delete the directory, which contains the Tor Browser profile.
+    Now delete the directory which contains the Tor Browser profile.
     If the Tor Browser application is in the Applications folder, the directory
     to remove is <code>~/Library/Application Support/TorBrowser-Data</code>.
+    If it's not, the directory is next to the Tor Browser application.<br/>
     To get to it, press cmd-shift-g while in Finder and copy/paste that
-    directory into the box that appears
-    (In case you remapped the keyboard shortcuts and no box appears,
-    find the folder in your finder and delete it.)
+    directory into the box that appears.
     </p>
   </item>    
   <item>
@@ -55,8 +59,7 @@ software or settings.
 </steps>
 
 <p>
-Note that your operating system’s standard “Uninstall” utility is not
-used.
+Note that your operating system’s standard “Uninstall” utility is not used.
 </p>
 
 </page>
