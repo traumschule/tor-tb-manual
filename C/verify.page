@@ -1,0 +1,62 @@
+<page xmlns="http://projectmallard.org/1.0/"
+  type="topic"
+  id="updating">
+
+<info>
+  <desc>How to verify Tor Browser downloads</desc>
+  <link type="guide" xref="index" group="nine" />
+</info>
+
+<title>Verify</title>
+
+<p>This section is about verifying the signature for your downloaded file.</p>
+
+<p>These instructions apply to Windows, Mac and Linux.</p>
+
+<section id="automatic">
+<title>Verify the downloaded Tor Browser archive</title>
+<steps>
+ <item>
+  <p>
+  <a href="https://www.torproject.org/download/download-easy.html.en">Download</a>
+  the appropriate bundle for your system and its signature to your Desktop
+  <media type="image" width="400" src="media/verify/download-tbb-sig.jpg" />
+  </p>
+ </item>
+ <item>
+  <p>
+  Open a command prompt or Terminal:
+  </p>
+  <ul>
+    <li>Windows: Open your Start Menu, type cmd then press enter.</li>
+    <li>macOS / Linux: Open a terminal.</li>
+  </ul>
+  <media type="image" width="400" src="media/verify/cmd.jpg" />
+ </item>
+ <item>
+  <p>
+  Enter the following commands to verify the bundle:<br/>
+  (Change the file name to the file you downloaded)
+  </p>
+  <pre>
+  cd Desktop
+  gpg2 --recv-keys 0x63FEE659
+  gpg2 --verify torbrowser-install-8.0_en-US.exe.asc
+  </pre>
+ </item>
+ <item>
+  <p>
+  You should see
+  <pre>Good signature from "Tor Browser Developers (signing key)</pre>
+  if not, please retry these steps.
+  </p>
+  <media type="image" width="400" src="media/verify/verify-bundle.png" />
+ </item>
+</steps>
+ <p>
+ For details check out the
+ <a href="https://torproject.org/docs/verifying-signatures.html">
+ verifying signatures guide</a> on the Torproject website.
+ </p>
+</section>
+</page>
