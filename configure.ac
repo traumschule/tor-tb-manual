@@ -4,6 +4,18 @@ AC_INIT([tor-browser-user-manual],
 
 AM_INIT_AUTOMAKE([foreign])
 
+AC_ARG_WITH(old-system,
+            AC_HELP_STRING([--old-system],
+                           [use tor-browser-bundle.git to determine TB version]),
+            [use_old_system=1])
+if ! test $use_old_system -gt 0 ; then
+
+TOR_BROWSER_VERSION="8.0"
+TOR_BROWSER_VERSION_ALPHA="8.5a1"
+TOR_BROWSER_BUNDLE_LOCALES="ar ca da de es-ES fa fr ga-IE he id is it ja ko nb-NO nl pl pt-BR ru sv-SE tr vi zh-CN zh-TW"
+
+else
+
 AC_ARG_WITH(tor-browser-bundle,
             AC_HELP_STRING([--with-tor-browser-bundle=PROGRAM],
                            [location of the clone of tor-browser-bundle.git]),
@@ -20,6 +32,8 @@ fi
 
 VERSIONS_PATH="${tor_browser_bundle_dir}/gitian/versions"
 TOR_BROWSER_BUNDLE_LOCALES=$(. "$VERSIONS_PATH"; echo "$BUNDLE_LOCALES")
+
+fi
 
 AC_SUBST(TOR_BROWSER_VERSION)
 AC_SUBST(TOR_BROWSER_BUNDLE_LOCALES)
