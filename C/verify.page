@@ -1,6 +1,6 @@
 <page xmlns="http://projectmallard.org/1.0/"
   type="topic"
-  id="updating">
+  id="verify">
 
 <info>
   <desc>How to verify Tor Browser downloads</desc>
@@ -13,13 +13,27 @@
 
 <p>These instructions apply to Windows, Mac and Linux.</p>
 
+<p>Why you should always verify files after downloading:
+How do you know that the Tor program you have is really the one we made?
+Digital signatures ensure that the package you are downloading was created by
+our developers.
+If the Tor package has been modified by some attacker it is not safe to use.
+It doesn't matter how secure and anonymous Tor is if you're not running the
+real Tor. For details see the chapter
+<a href="https://torproject.org/docs/verifying-signatures.html.en#Why-verify-signature">Why to verify signatures</a>
+in our verification guide. It also explains, what digital signatures are and
+which software you need.
+</p>
+
 <section id="automatic">
 <title>Verify the downloaded Tor Browser archive</title>
 <steps>
  <item>
   <p>
   <a href="https://www.torproject.org/download/download-easy.html.en">Download</a>
-  the appropriate bundle for your system and its signature to your Desktop
+  the Tor Browser archive and its .asc signature file to your Desktop.
+  It is important to downoad both to the same directory, so they can be found
+  by your verification program.
   <media type="image" width="400" src="media/verify/download-tbb-sig.jpg" />
   </p>
  </item>
